@@ -1,0 +1,440 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --blue: dodgerblue;
+    --lightblue: rgb(210, 240, 250);
+    --light: white;
+    --gray: rgba(white, white, white, 0.7);
+    --dark: rgba(22, 22, 22);
+}
+
+.lightmode{
+    background: #fff;
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+body{
+    
+    color: rgba(0, 0, 0, 0.147);
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    width: 55px;
+    height: 27px;
+    background-color: #333;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+  }
+  
+  .ball {
+    width: 25px;
+    height: 23px;
+    background-color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  /*  target the elemenent after the label*/
+  .checkbox:checked + .label .ball{
+    transform: translateX(25px);
+  }
+  
+  .fa-moon {
+    color: hotpink;
+    font-size: 20px;
+    
+  }
+  
+  .fa-sun {
+    color: yellow;
+    font-size: 20px;
+  }
+
+  .lightmode{
+    background: white;
+    
+  }
+
+  .darkmode{
+    background: black;
+    color: gainsboro;
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 1;
+    padding: 5vh 25px;
+    font-size: 25px;
+    background: #fff;
+    
+}
+
+.btn-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.btn-con button{
+    font-size: 20px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sign{
+    border: none;
+    color: white;
+    background-color: var(--blue);
+    display: none;
+}
+
+.sign:active{
+    border: 3px solid var(--blue);
+    background-color: var(--gray);
+    color: var(--dark);
+}
+
+.login{
+    border: 3px solid var(--blue);
+}
+
+
+.login:active{
+    background-color: var(--blue);
+    color: white;
+}
+
+.con{
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.con a{
+    color: var(--blue);
+}
+
+.hide{
+    display: none;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.h1{
+    color: var(--blue);
+    font-size: 35px;
+    font-family:monospace, sans-serif;
+}
+
+.user-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid transparent;
+    width: 60%;
+    height: 100vh;
+    background-color: var(--light);
+    z-index: 1;
+    box-shadow: 0px 2px 8px #ccc;
+    animation: appear 0.5s linear;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.user-menu .user-photo{
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.user-menu h3{
+    padding: 15px;
+    color: var(--blue);
+    text-transform: capitalize;
+}
+
+.user-menu p{
+    padding: 10px;
+    color: var(--dark);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.quiz-btn{
+    background-color: var(--blue);
+    color: var(--light);
+    padding: 8px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.user-menu-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.user-menu-list div{
+    padding: 10px;
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.user-menu-list div:hover{
+    background-color: var(--lightblue);
+}
+
+.user-menu-list div p{
+    color: var(--blue);
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.top{
+    width: 100%;
+    border: none;
+    padding: 24px 0px 15px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top .search{
+    border: 2px solid var(--lightblue);
+    width: 100%;
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline-color: var(--blue);
+}
+
+.main{
+    border: 5px solid var(--blue);
+    margin-top: 35vh;
+    margin-bottom: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--gray);
+}
+
+@media screen and (min-width: 700px) {
+    .main{
+        width: 80vw;
+        margin: 0 auto;
+        margin-top: 35vh;
+        margin-bottom: 24px;
+    }
+}
+
+.main .hero{
+    padding: 5vh;
+    text-align: left;
+    border-bottom: 5px solid var(--blue);
+    color: var(--blue);
+    background-color: var(--lightblue);
+}
+
+.main .hero p{
+    padding-top: 25px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+
+.box1{
+    width: 100%;
+    border-bottom: 5px solid var(--blue);
+    padding: 5vh 15px;
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+
+.box1:active{
+    opacity: 0.5;
+}
+
+.box1 div{
+    padding: 0 25px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10vw;
+}
+
+.box1 div img{
+    border: 3px solid var(--lightblue);
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box1 div span{
+    
+    width: 85%;
+    border: 1px solid red
+}
+
+.btn{
+    text-align: center;
+    width: 90%;
+    border: 4px solid var(--blue);
+    margin: 10vh auto 3vh auto;
+    padding: 3vh 15px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+.btn:active{
+    background-color: var(--blue);
+    color: white;
+    box-shadow: 0px 3px 5px var(--dark);
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: var(--dark);
+}
+
+.footer p{
+    color: black;
+    padding: 15px;
+}
+
+.main .overview h2{
+    color: var(--blue);
+    padding: 15px;
+    
+}
+
+.main .overview p{
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    padding: 15px;
+}
+
+.main .overview p span{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.main h1{
+    color: var(--blue);
+    padding-top: 15px;
+}
+
+.form{
+    width: 100%;
+    border: none;
+    text-align: left;
+    margin: 15px 0px;
+    display: block;
+    
+}
+
+.form label{
+    color: var(--dark);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.form input{
+    width: 100%;
+    font-size: 22px;
+    padding: 5px;
+    margin: 5px 0px 25px 0px;
+    border: 1px solid var(--blue);
+    outline-color: var(--lightblue);
+}
+
+.log-con{
+    text-align: center;
+}
+
+.log-con button{
+    border: none;
+    color: white;
+    background-color: var(--blue);
+    font-size: 20px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}

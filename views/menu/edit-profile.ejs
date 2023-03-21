@@ -1,0 +1,147 @@
+
+
+
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizonia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" type="module" defer></script>
+<body>
+    <header class="header">
+        <a href="/index">
+            <h1 class="h1" id="h1">
+                Quizonia
+            </h1>
+        </a>
+
+        <div class="btn-con">
+            <% if(users[0] === undefined){%>
+                <a href="/login">
+                    <button class="login" id="login">Login</button>
+                </a>
+            <%} else{%>
+                <div class="user-profile">
+                    <img class="profile" src="/images/profile.png" alt="profile image">
+                </div>
+            <%}%>
+        </div>
+        <div class="hide" id="user-menu">
+            <img class="user-photo" src="/images/profile.png" alt="profile image">
+
+            <h3>
+                <% if(users[0] === undefined){%>
+                    null
+                <%} else{%>
+                    <%-users[0].name%>
+                <%}%>
+            </h3>
+            <p>
+                <% if(users[0] === undefined){%>
+                    null
+                <%} else{%>
+                    <%-users[0].email%>
+                <%}%>
+            </p>
+
+            <div class="user-menu-btn">
+                <a href="/set-quiz">
+                    <button class="quiz-btn">Set a custom quiz</button>
+                </a>
+            </div>
+
+            <div class="user-menu-list">
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/overview">
+                        <p>Overview</p>
+                    </a>
+                </div>
+
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/edit-profile">
+                        <p>Edit Profile</p>
+                    </a>
+                </div>
+
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/task">
+                        <p>Task</p>
+                    </a>
+                </div>
+
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/setting">
+                        <p>Setting</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <input type="search" placeholder="Search topic" id="search" class="search">
+        </div>
+
+        <div class="con" id="con">
+            <a  href="/art">
+                <div class="anchor-text">Art and literature</div>
+            </a>
+            <a href="/general">
+                <div class="anchor-text">General knowledge</div>
+            </a>
+            <a href="/nature">
+                <div class="anchor-text">Human and nature</div>
+            </a>
+            <a href="/science">
+                <div class="anchor-text">Science and technology</div>
+            </a>
+        </div>
+
+    </header>
+    
+    <main class="main" id="main">
+        <div class="edit-profile">
+            <h1>Edit profile</h1>
+            
+            <form action="/sign" method="POST" class="form" id="form">
+                <label for="email">Enter new name</label>
+                <div>
+                    <input type="text" class="name" id="name" name="newname" required>
+                </div>
+                <label for="email">Enter new email</label>
+                <div>
+                    <input type="email" class="email" id="email" name="newemail" required>
+                </div>
+        
+                <label for="password">Enter new password</label>
+                <div>
+                    <input type="password" class="password" id="password" name="npassword" required>
+                </div>
+        
+                <div class="log-con">
+                    <button class="login" id="submit-name" type="submit">Submit</button>
+                </div>
+               </form>
+        </div>
+
+    </main>
+</body>
+</html>
+

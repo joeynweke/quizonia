@@ -1,0 +1,299 @@
+
+<!DOCTYPE html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizonia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="/style.css">
+    
+    <script src="/script.js" type="module" defer></script>
+    <script src="/mode.js" type="module" defer></script>
+<body class="">
+    <header class="header">
+        <a href="/index">
+            <h1 class="h1" id="h1">
+                Quizonia
+            </h1>
+        </a>
+        
+        <div class="btn-con">
+            <div>
+                <input type="checkbox" class="checkbox light" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class='fas fa-sun'></i>
+                    <div class='ball'></div>
+                </label>
+            </div>
+            <% if(loggedIn){%>
+                <div class="user-profile">
+                    <img class="profile" src="/images/profile.png" alt="profile image">
+                </div>
+            <%} else{%>
+                <a href="/login">
+                    <button class="login" id="login">Login</button>
+                </a>
+            <%}%>
+        </div>
+        <div class="hide" id="user-menu">
+            <img class="user-photo" src="/images/profile.png" alt="profile image">
+
+            <p>
+                <% if(user){%>
+                    <%= user.name%>
+                <%} else{%>
+                    null
+                <%}%>
+            </p>
+            <div class="user-menu-btn">
+                <a href="/set-quiz">
+                    <button class="quiz-btn">Set a custom quiz</button>
+                </a>
+            </div>
+
+            <div class="user-menu-list">
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/overview">
+                        <p>Overview</p>
+                    </a>
+                </div>
+
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/edit-profile">
+                        <p>Edit Profile</p>
+                    </a>
+                </div>
+
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/task">
+                        <p>Task</p>
+                    </a>
+                </div>
+
+                <div>
+                    <span>
+                        <img class="profile" src="/images/profile.png" alt="profile image">
+                    </span>
+                    <a href="/setting">
+                        <p>Setting</p>
+                    </a>
+                </div>
+            </div>
+            <a href="/logout" class="login">
+                <button>Logout</button>
+            </a>
+        </div>
+        <div class="top">
+            <input type="search" placeholder="Search topic" id="search" class="search">
+        </div>
+
+        <div class="con" id="con">
+            <a  href="/art">
+                <div class="anchor-text">Art and literature</div>
+            </a>
+            <a href="/general">
+                <div class="anchor-text">General knowledge</div>
+            </a>
+            <a href="/human">
+                <div class="anchor-text">Human and nature</div>
+            </a>
+            <a href="/science">
+                <div class="anchor-text">Science and technology</div>
+            </a>
+            <a href="/mathematics">
+                <div class="anchor-text">Mathematics</div>
+            </a>
+            <a href="/pop">
+                <div class="anchor-text">Pop culture</div>
+            </a>
+            <a href="/sports">
+                <div class="anchor-text">Sports</div>
+            </a>
+            <a href="/music">
+                <div class="anchor-text">Art and music</div>
+            </a>
+            <a href="/movies">
+                <div class="anchor-text">Movies and TV shows</div>
+            </a>
+            <a href="/food">
+                <div class="anchor-text">Food and cuisine</div>
+            </a>
+            <a href="/technology">
+                <div class="anchor-text">Technology</div>
+            </a>
+            <a href="/mythology">
+                <div class="anchor-text">Mythology</div>
+            </a>
+            <a href="/animals">
+                <div class="anchor-text">Nature and animals</div>
+            </a>
+            <a href="/fashion">
+                <div class="anchor-text">Fashion and beauty</div>
+            </a>
+            <a href="/languages">
+                <div class="anchor-text">Languages</div>
+            </a>
+            <a href="/religion">
+                <div class="anchor-text">Religion</div>
+            </a>
+            <a href="/celebrities">
+                <div class="anchor-text">Celebrities</div>
+            </a>
+            <a href="/transportation">
+                <div class="anchor-text">Transportation</div>
+            </a>
+            <a href="/health">
+                <div class="anchor-text">Health and medicine</div>
+            </a>
+        </div>
+    </header>
+    
+    <main class="main" id="main">
+        <div class="hero">
+            
+            <h1 class="hh1">How Quizonia Can Help</h1>
+            <p>Students like you have been studying with Quizonia and 
+                getting smarter, and great grades in school. We helped them, 
+                here is how we can help you.
+            </p>
+        </div>
+        
+        <a  class="box1" href="/art">
+            <div>
+                <img src="images/literature.jpg" alt="img">
+                <p>Art and literature</p>
+            </div>
+        </a>
+        <a class="box1" href="/general">
+            <div>
+                <img src="images/general.jpg" alt="img">
+                <p>General knowledge</p>
+            </div>
+        </a>
+        <a class="box1" href="/nature">
+            <div>
+                <img src="images/human-nature.jpg" alt="img">
+                <p>Human and nature</p>
+            </div>
+        </a>
+        <a class="box1" href="/science">
+            <div>
+                <img src="images/science.jpg" alt="img">
+                <p>Science and technology</p>
+            </div>
+        </a>
+        <a class="box1" href="/mathematics">
+            <div>
+                <img src="images/mathematics.jpg" alt="img">
+                <p>Mathematics</p>
+            </div>
+        </a>
+        <a class="box1" href="/pop">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Pop culture</p>
+            </div>
+        </a>
+        <a class="box1" href="/sports">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Sports</p>
+            </div>
+        </a>
+        <a class="box1" href="/music">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Art and music</p>
+            </div>
+        </a>
+        <a class="box1" href="/movies">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Movies and TV shows</p>
+            </div>
+        </a>
+        <a class="box1" href="/food">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Food and cuisine</p>
+            </div>
+        </a>
+        <a class="box1" href="/technology">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Technology</p>
+            </div>
+        </a>
+        <a class="box1" href="/mythology">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Mythology</p>
+            </div>
+        </a>
+        <a class="box1" href="/animals">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Nature and animals</p>
+            </div>
+        </a>
+        <a class="box1" href="/fashion">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Fashion and beauty</p>
+            </div>
+        </a>
+        <a class="box1" href="/languages">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Languages</p>
+            </div>
+        </a>
+        <a class="box1" href="/religion">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Religion</p>
+            </div>
+        </a>
+        <a class="box1" href="/celebrities">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Celebrities</p>
+            </div>
+        </a>
+        <a class="box1" href="/transportation">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Transportation</p>
+            </div>
+        </a>
+        <a class="box1" href="/health">
+            <div>
+                <img src="images/profile.png" alt="img">
+                <p>Health and medicine</p>
+            </div>
+        </a>
+
+        <button class="btn" id="btn">Upgrade</button>
+    </main>
+    <footer class="footer">
+        <p>&copy;2023 <strong>Joey</strong></p>
+    </footer>
+</body>
+</html>
+

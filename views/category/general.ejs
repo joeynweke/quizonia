@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizonia - General knowledge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/pages.css">
+    <script src="/general.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <a href="/index">
+            <div class="h1" id="h1">
+                Quizonia
+            </div>
+        </a>
+
+        <div class="btn-con">
+            <button class="sign" id="sign">Sign up</button>
+            <button class="login" id="login">Login</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="hide" id="hide">
+            <h1 class="main-topic">General Knowledge</h1>
+        <div class="quiz-time">
+            <p>Quiz: <span id="quiz-number"></span></p>
+            <p id="timer"></p>
+        </div>
+        <section class="question-wrap" id="question-wrap">
+            <p class="question">
+                <p><span id="question-count"></span></p>
+                <span id="question"></span>
+            </p>
+
+            <div class="options-wrap">
+                <div class="option-a" id="option-a">
+                    <span>A</span>
+                    <p id="a"></p>
+                </div>
+                <div class="option-a" id="option-b">
+                    <span>B</span>
+                    <p  id="b"></p>
+                </div>
+                <div class="option-a" id="option-c">
+                    <span>C</span>
+                    <p id="c"></p>
+                </div>
+                <div class="option-a" id="option-d">
+                    <span>D</span>
+                    <p  id="d"></p>
+                </div>
+            </div>
+        </div>
+            <button class="btn hide" id="submit"></button>
+            <button class="start-btn " id="start-btn">Start</button>
+        </section>
+        <div class="hide" id="time-up-con">
+            <p id="time-up"></p>
+            <button class="see-score" id="see-score">
+                see score
+            </button>
+        </div>
+    </main>
+</body>
+</html>

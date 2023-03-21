@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizonia -Sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <script src="/login.js" type="module" defer></script>
+    <link rel="stylesheet" href="/login.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index">
+            <h1 class="h1" id="h1">
+                Quizonia
+            </h1>
+        </a>
+        <div>
+            <input type="checkbox" class="checkbox light" id="checkbox">
+            <label for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class='fas fa-sun'></i>
+                <div class='ball'></div>
+            </label>
+        </div>
+        <div class="btn-con">
+            <a href="./login">
+                <button class="login" id="login-btn">Login</button>
+            </a>
+        </div>
+        <div class="user hide" id="user" style="color: red">user</div>
+    </header>
+    
+    <main class="main" id="main">
+        <div class="error" id="error" style="color: red"></div>
+       <h1>Sign up</h1>
+
+       <form action="/register" method="POST" class="form" id="form">
+        <label for="email">Full name</label>
+        <div>
+            <input type="text" class="name" id="name" name="name" required>
+        </div>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" class="email" id="email" name="email" required>
+        </div>
+
+        <label for="password">Password</label>
+        <div>
+            <input type="password" class="password" id="password" name="password" required>
+        </div>
+
+        <div class="log-con">
+            <button class="login" id="sign" type="submit">Sign up</button>
+        </div>
+       </form>
+       <p>Already have an account? <a href="login.html">Login</a></p>
+    </main>
+</body>
+</html>
