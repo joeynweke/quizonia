@@ -327,8 +327,8 @@ header{
 
 .box1 div img{
     border: 3px solid var(--lightblue);
-    width: 20%;
-    height: auto;
+    width: 65px;
+    height: 60px;
     object-fit: cover;
 }
 
