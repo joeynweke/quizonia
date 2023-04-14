@@ -24,63 +24,298 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "What is the normal range of blood pressure for an adult?",
+        options: {
+        A: "90/60 mmHg to 120/80 mmHg",
+        B: "110/70 mmHg to 140/90 mmHg",
+        C: "120/80 mmHg to 160/100 mmHg",
+        D: "130/80 mmHg to 180/110 mmHg"
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "90/60 mmHg to 120/80 mmHg"
+        },
+        
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "What is the medical term for high blood pressure?",
+        options: {
+        A: "Hypertension",
+        B: "Hypotension",
+        C: "Hypoalbuminemia",
+        D: "Hyperlipidemia"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Hypertension"
+        },
+        
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "What is the recommended daily intake of water for adults?",
+        options: {
+        A: "2 liters",
+        B: "3 liters",
+        C: "4 liters",
+        D: "5 liters"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "2 liters"
+        },
+        
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "What is the medical term for the 'windpipe'?",
+        options: {
+        A: "Bronchus",
+        B: "Larynx",
+        C: "Trachea",
+        D: "Alveoli"
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "Trachea"
+        },
+        
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "What is the medical term for the 'voice box'?",
+        options: {
+        A: "Bronchus",
+        B: "Larynx",
+        C: "Trachea",
+        D: "Alveoli"
         },
-        answer : 'William Shakespeare'
-    }
+        answer: "Larynx"
+        },
+        
+        {
+        id: 6,
+        question: "What is the medical term for the 'food pipe'?",
+        options: {
+        A: "Esophagus",
+        B: "Duodenum",
+        C: "Jejunum",
+        D: "Ileum"
+        },
+        answer: "Esophagus"
+        },
+        
+        {
+        id: 7,
+        question: "What is the medical term for the 'tailbone'?",
+        options: {
+        A: "Pelvis",
+        B: "Coccyx",
+        C: "Sacrum",
+        D: "Vertebrae"
+        },
+        answer: "Coccyx"
+        },
+        
+        {
+        id: 8,
+        question: "What is the medical term for 'near-sightedness'?",
+        options: {
+        A: "Astigmatism",
+        B: "Hyperopia",
+        C: "Myopia",
+        D: "Presbyopia"
+        },
+        answer: "Myopia"
+        },
+        
+        {
+        id: 9,
+        question: "What is the medical term for 'far-sightedness'?",
+        options: {
+        A: "Astigmatism",
+        B: "Hyperopia",
+        C: "Myopia",
+        D: "Presbyopia"
+        },
+        answer: "Hyperopia"
+        },
+        
+        {
+        id: 10,
+        question: "What is the medical term for the 'kneecap'?",
+        options: {
+        A: "Patella",
+        B: "Tibia",
+        C: "Fibula",
+        D: "Femur"
+        },
+        answer: "Patella"
+        },
+        {
+            id: 11,
+            question: "What is the medical term for an excessive fear of heights?",
+            options: {
+              A: "Acrophobia",
+              B: "Claustrophobia",
+              C: "Agoraphobia",
+              D: "Hemophobia"
+            },
+            answer: "Acrophobia"
+          },
+          {
+            id: 12,
+            question: "What is the name for the condition where the fingers and toes turn white or blue due to poor circulation?",
+            options: {
+              A: "Frostbite",
+              B: "Raynaud's Disease",
+              C: "Peripheral Neuropathy",
+              D: "Gangrene"
+            },
+            answer: "Raynaud's Disease"
+          },
+          {
+            id: 13,
+            question: "What is the medical term for a fear of needles?",
+            options: {
+              A: "Trypanophobia",
+              B: "Arachnophobia",
+              C: "Agoraphobia",
+              D: "Ophidiophobia"
+            },
+            answer: "Trypanophobia"
+          },
+          {
+            id: 14,
+            question: "What is the name for the condition where a person falls asleep suddenly during the day?",
+            options: {
+              A: "Insomnia",
+              B: "Narcolepsy",
+              C: "Sleep Apnea",
+              D: "Night Terrors"
+            },
+            answer: "Narcolepsy"
+          },
+          {
+            id: 15,
+            question: "What is an alternative therapy that involves the use of needles?",
+            options: {
+            A: "Acupuncture",
+            B: "Aromatherapy",
+            C: "Reflexology",
+            D: "Hypnotherapy"
+            },
+            answer: "Acupuncture"
+            },
+            {
+                id: 16,
+                question: "What is the condition that causes excessive sweating?",
+                options: {
+                A: "Hyperhidrosis",
+                B: "Hypohidrosis",
+                C: "Anhidrosis",
+                D: "Diaphoresis"
+                },
+                answer: "Hyperhidrosis"
+                },
+                
+                {
+                id: 17,
+                question: "What is the name of the rare genetic disorder that causes premature aging?",
+                options: {
+                A: "Progeria",
+                B: "Hutchinson-Gilford syndrome",
+                C: "Werner syndrome",
+                D: "Alzheimer's disease"
+                },
+                answer: "Progeria"
+                },
+                
+                {
+                id: 18,
+                question: "What is the term for an abnormally high body temperature?",
+                options: {
+                A: "Hyperthermia",
+                B: "Hypothermia",
+                C: "Hypoglycemia",
+                D: "Hyperglycemia"
+                },
+                answer: "Hyperthermia"
+                },
+                
+                {
+                id: 19,
+                question: "What is the condition characterized by a deficiency of vitamin D?",
+                options: {
+                A: "Scurvy",
+                B: "Beriberi",
+                C: "Rickets",
+                D: "Kwashiorkor"
+                },
+                answer: "Rickets"
+                },
+                
+                {
+                id: 20,
+                question: "What is the name of the condition where there is a loss of vision in the center of the visual field?",
+                options: {
+                A: "Astigmatism",
+                B: "Glaucoma",
+                C: "Cataracts",
+                D: "Macular degeneration"
+                },
+                answer: "Macular degeneration"
+                },
+                
+                {
+                id: 21,
+                question: "What is the term for the ringing or buzzing sound in the ear?",
+                options: {
+                A: "Tinnitus",
+                B: "Vertigo",
+                C: "Meniere's disease",
+                D: "Otitis media"
+                },
+                answer: "Tinnitus"
+                },
+                
+                {
+                id: 22,
+                question: "What is the name of the condition where there is an excessive accumulation of fluid in the lungs?",
+                options: {
+                A: "Pneumonia",
+                B: "Asthma",
+                C: "Pulmonary edema",
+                D: "Tuberculosis"
+                },
+                answer: "Pulmonary edema"
+                },
+                
+                {
+                id: 23,
+                question: "What is the term for the loss of the ability to taste?",
+                options: {
+                A: "Hypogeusia",
+                B: "Anosmia",
+                C: "Ageusia",
+                D: "Dysgeusia"
+                },
+                answer: "Ageusia"
+                },
+                
+                {
+                id: 24,
+                question: "What is the name of the condition where there is an inflammation of the appendix?",
+                options: {
+                A: "Appendicitis",
+                B: "Pancreatitis",
+                C: "Cholecystitis",
+                D: "Gastritis"
+                },
+                answer: "Appendicitis"
+                },
+                
+                {
+                id: 25,
+                question: "What is the term for the difficulty in breathing that occurs during sleep?",
+                options: {
+                A: "Sleep apnea",
+                B: "Insomnia",
+                C: "Narcolepsy",
+                D: "Cataplexy"
+                },
+                answer: "Sleep apnea"
+            }
+          
 ]
 
 let answersTotal = questions.length;

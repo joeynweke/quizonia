@@ -24,63 +24,297 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
+        question : 'What is the national dish of Thailand?',
         options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        A: 'Pad Thai',
+        B: 'Tom Yum Goong',
+        C: 'Som Tam',
+        D: 'Khao Soi'
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer : 'Pad Thai'
+        },
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
+        question : 'What is the primary ingredient in hummus?',
         options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        A: 'Chickpeas',
+        B: 'Lentils',
+        C: 'Black beans',
+        D: 'Pinto beans'
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer : 'Chickpeas'
+        },
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
+        question : 'What is the name of the traditional Scottish dish that consists of a sheep’s stomach filled with sheep’s heart, liver, and lungs, along with oatmeal and spices?',
         options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        A: 'Haggis',
+        B: 'Bangers and mash',
+        C: 'Shepherd’s pie',
+        D: 'Fish and chips'
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer : 'Haggis'
+        },
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
+        question : 'What is the main ingredient in a traditional Greek salad?',
         options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        A: 'Feta cheese',
+        B: 'Olives',
+        C: 'Tomatoes',
+        D: 'Cucumbers'
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer : 'Feta cheese'
+        },
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
+        question : 'What is the name of the famous spicy Korean cabbage dish?',
         options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        A: 'Kimchi',
+        B: 'Bibimbap',
+        C: 'Japchae',
+        D: 'Galbi'
         },
-        answer : 'William Shakespeare'
-    }
+        answer : 'Kimchi'
+        },
+        {
+        id: 6,
+        question : 'What is the main ingredient in hummus?',
+        options : {
+        A: 'Chickpeas',
+        B: 'Lentils',
+        C: 'Black beans',
+        D: 'Kidney beans'
+        },
+        answer : 'Chickpeas'
+        },
+        
+        {
+        id: 7,
+        question : 'What type of cuisine is pho?',
+        options : {
+        A: 'Thai',
+        B: 'Vietnamese',
+        C: 'Japanese',
+        D: 'Korean'
+        },
+        answer : 'Vietnamese'
+        },
+        
+        {
+        id: 8,
+        question : 'What is the national dish of Spain?',
+        options : {
+        A: 'Paella',
+        B: 'Tacos',
+        C: 'Pasta',
+        D: 'Sushi'
+        },
+        answer : 'Paella'
+        },
+        
+        {
+        id: 9,
+        question : 'What is the main ingredient in falafel?',
+        options : {
+        A: 'Chickpeas',
+        B: 'Lentils',
+        C: 'Black beans',
+        D: 'Kidney beans'
+        },
+        answer : 'Chickpeas'
+        },
+        
+        {
+        id: 10,
+        question : 'What is the traditional Italian dessert that is made with ladyfingers, espresso, and mascarpone cheese?',
+        options : {
+        A: 'Tiramisu',
+        B: 'Cannoli',
+        C: 'Gelato',
+        D: 'Panna cotta'
+        },
+        answer : 'Tiramisu'
+        },
+        
+        {
+        id: 11,
+        question : 'What is the national dish of Greece?',
+        options : {
+        A: 'Baklava',
+        B: 'Tzatziki',
+        C: 'Moussaka',
+        D: 'Dolmades'
+        },
+        answer : 'Moussaka'
+        },
+        
+        {
+        id: 12,
+        question : 'What type of cheese is traditionally used on a pizza margherita?',
+        options : {
+        A: 'Mozzarella',
+        B: 'Cheddar',
+        C: 'Gouda',
+        D: 'Brie'
+        },
+        answer : 'Mozzarella'
+        },
+        
+        {
+        id: 13,
+        question : 'What is the traditional German dish that consists of meat that is marinated and then grilled?',
+        options : {
+        A: 'Bratwurst',
+        B: 'Schnitzel',
+        C: 'Sauerbraten',
+        D: 'Rouladen'
+        },
+        answer : 'Sauerbraten'
+        },
+        
+        {
+        id: 14,
+        question : 'What type of noodle is typically used in a traditional lasagna?',
+        options : {
+        A: 'Spaghetti',
+        B: 'Linguine',
+        C: 'Fettuccine',
+        D: 'Lasagna'
+        },
+        answer : 'Lasagna'
+        },
+        
+        {
+        id: 15,
+        question : 'What is the traditional French dish that consists of beef stewed in red wine with vegetables?',
+        options : {
+        A: 'Bouillabaisse',
+        B: 'Coq au Vin',
+        C: 'Ratatouille',
+        D: 'Quiche Lorraine'
+        },
+        answer : 'Coq au Vin'
+        },
+        {
+        id: 16,
+        question : 'Which country is credited with inventing the dish "sushi"?',
+        options : {
+        A: 'Japan',
+        B: 'China',
+        C: 'Korea',
+        D: 'Vietnam'
+        },
+        answer : 'Japan'
+        },
+        {
+            id: 17,
+            question : 'What is the main ingredient of the popular Italian dish "risotto"?',
+            options : {
+                A: 'Rice',
+                B: 'Pasta',
+                C: 'Bread',
+                D: 'Potatoes'
+            },
+            answer : 'Rice'
+        },
+        
+        {
+            id: 18,
+            question : 'What type of cheese is traditionally used in the Greek dish "spanakopita"?',
+            options : {
+                A: 'Feta',
+                B: 'Cheddar',
+                C: 'Gouda',
+                D: 'Parmesan'
+            },
+            answer : 'Feta'
+        },
+        
+        {
+            id: 19,
+            question : 'What type of pastry is used to make the French dessert "éclair"?',
+            options : {
+                A: 'Pâte à choux',
+                B: 'Shortcrust',
+                C: 'Phyllo',
+                D: 'Puff pastry'
+            },
+            answer : 'Pâte à choux'
+        },
+        
+        {
+            id: 20,
+            question : 'What is the main ingredient of the popular Indian dish "saag paneer"?',
+            options : {
+                A: 'Spinach',
+                B: 'Cauliflower',
+                C: 'Eggplant',
+                D: 'Peas'
+            },
+            answer : 'Spinach'
+        },
+        
+        {
+            id: 21,
+            question : 'What is the national dish of Thailand?',
+            options : {
+                A: 'Pad Thai',
+                B: 'Tom Yum Soup',
+                C: 'Green Curry',
+                D: 'Mango Sticky Rice'
+            },
+            answer : 'Pad Thai'
+        },
+        
+        {
+            id: 22,
+            question : 'Which ingredient gives the Korean dish "bibimbap" its signature flavor?',
+            options : {
+                A: 'Gochujang',
+                B: 'Soy sauce',
+                C: 'Fish sauce',
+                D: 'Oyster sauce'
+            },
+            answer : 'Gochujang'
+        },
+        
+        {
+            id: 23,
+            question : 'What type of bean is used to make the popular Mexican dish "refried beans"?',
+            options : {
+                A: 'Pinto beans',
+                B: 'Black beans',
+                C: 'Kidney beans',
+                D: 'Lima beans'
+            },
+            answer : 'Pinto beans'
+        },
+        
+        {
+            id: 24,
+            question : 'What is the main ingredient of the popular Middle Eastern dip "hummus"?',
+            options : {
+                A: 'Chickpeas',
+                B: 'Lentils',
+                C: 'Black beans',
+                D: 'Kidney beans'
+            },
+            answer : 'Chickpeas'
+        },
+        
+        {
+            id: 25,
+            question : 'What type of meat is traditionally used in the British dish "shepherd\'s pie"?',
+            options : {
+                A: 'Lamb',
+                B: 'Beef',
+                C: 'Pork',
+                D: 'Chicken'
+            },
+            answer : 'Lamb'
+        }
+        
 ]
 
 let answersTotal = questions.length;

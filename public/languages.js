@@ -24,63 +24,293 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
+        question : 'What is the most widely spoken language in the world?',
         options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        A: 'English',
+        B: 'Mandarin Chinese',
+        C: 'Spanish',
+        D: 'Arabic'
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer : 'Mandarin Chinese'
+        },
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
+        question : 'What language has the most words?',
         options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        A: 'English',
+        B: 'French',
+        C: 'German',
+        D: 'Russian'
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer : 'English'
+        },
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
+        question : 'What is the only official language of Brazil?',
         options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        A: 'Portuguese',
+        B: 'Spanish',
+        C: 'English',
+        D: 'French'
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer : 'Portuguese'
+        },
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
+        question : 'What language has the most native speakers in Europe?',
         options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        A: 'English',
+        B: 'French',
+        C: 'Spanish',
+        D: 'German'
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer : 'German'
+        },
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
+        question : 'What language is spoken in the most countries?',
         options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        A: 'English',
+        B: 'French',
+        C: 'Arabic',
+        D: 'Spanish'
         },
-        answer : 'William Shakespeare'
-    }
+        answer : 'English'
+        },
+        {
+        id: 6,
+        question : 'What is the official language of Pakistan?',
+        options : {
+        A: 'Urdu',
+        B: 'Hindi',
+        C: 'Punjabi',
+        D: 'Arabic'
+        },
+        answer : 'Urdu'
+        },
+        {
+        id: 7,
+        question : 'What language has the most second language speakers?',
+        options : {
+        A: 'English',
+        B: 'Mandarin Chinese',
+        C: 'Spanish',
+        D: 'French'
+        },
+        answer : 'English'
+        },
+        {
+        id: 8,
+        question : 'What is the official language of Switzerland?',
+        options : {
+        A: 'Swiss German',
+        B: 'French',
+        C: 'Italian',
+        D: 'Romansh'
+        },
+        answer : 'There are four official languages: Swiss German, French, Italian, and Romansh'
+        },
+        {
+        id: 9,
+        question : 'What language is spoken in the African country of Ethiopia?',
+        options : {
+        A: 'Amharic',
+        B: 'Swahili',
+        C: 'Arabic',
+        D: 'Somali'
+        },
+        answer : 'Amharic'
+        },
+        {
+        id: 10,
+        question : 'What language family does the Japanese language belong to?',
+        options : {
+        A: 'Sino-Tibetan',
+        B: 'Indo-European',
+        C: 'Austronesian',
+        D: 'Japonic'
+        },
+        answer : 'Japonic'
+        },
+        {
+            id: 11,
+            question: "What is the most widely spoken indigenous language in South America?",
+            options: {
+            A: "Quechua",
+            B: "Nahuatl",
+            C: "Maya",
+            D: "Aymara"
+            },
+            answer: "Quechua"
+            },
+            
+            {
+            id: 12,
+            question: "What is the only continent where Portuguese is the official language?",
+            options: {
+            A: "South America",
+            B: "Africa",
+            C: "Europe",
+            D: "Asia"
+            },
+            answer: "Africa"
+            },
+            
+            {
+            id: 13,
+            question: "What is the name of the alphabet used in Russia and some other Slavic countries?",
+            options: {
+            A: "Cyrillic",
+            B: "Latin",
+            C: "Arabic",
+            D: "Devanagari"
+            },
+            answer: "Cyrillic"
+            },
+            
+            {
+            id: 14,
+            question: "What is the name of the language spoken by the native people of Hawaii?",
+            options: {
+            A: "Hawaiian",
+            B: "Polynesian",
+            C: "Maori",
+            D: "Tongan"
+            },
+            answer: "Hawaiian"
+            },
+            
+            {
+            id: 15,
+            question: "What is the official language of Suriname?",
+            options: {
+            A: "Dutch",
+            B: "French",
+            C: "Spanish",
+            D: "English"
+            },
+            answer: "Dutch"
+            },
+            
+            {
+            id: 16,
+            question: "What is the name of the writing system used in Japanese?",
+            options: {
+            A: "Katakana",
+            B: "Hiragana",
+            C: "Kanji",
+            D: "Romaji"
+            },
+            answer: "Kanji"
+            },
+            
+            {
+            id: 17,
+            question: "What is the official language of Haiti?",
+            options: {
+            A: "Creole",
+            B: "French",
+            C: "Spanish",
+            D: "English"
+            },
+            answer: "French"
+            },
+            
+            {
+            id: 18,
+            question: "What is the name of the language spoken in the Basque region of Spain?",
+            options: {
+            A: "Catalan",
+            B: "Galician",
+            C: "Euskara",
+            D: "Castilian"
+            },
+            answer: "Euskara"
+            },
+            
+            {
+            id: 19,
+            question: "What is the most widely spoken language in the world by number of native speakers?",
+            options: {
+            A: "Mandarin",
+            B: "English",
+            C: "Spanish",
+            D: "Hindi"
+            },
+            answer: "Mandarin"
+            },
+            
+            {
+            id: 20,
+            question: "What is the name of the language spoken in Afghanistan?",
+            options: {
+            A: "Pashto",
+            B: "Dari",
+            C: "Farsi",
+            D: "Urdu"
+            },
+            answer: "Dari"
+            },
+            {
+            id: 21,
+            question: "What is the oldest known written language?",
+            options: {
+            A: "Sumerian",
+            B: "Hieroglyphics",
+            C: "Cuneiform",
+            D: "Indus script"
+            },
+            answer: "Sumerian"
+            },
+            
+            {
+            id: 22,
+            question: "What is the most spoken language in the world?",
+            options: {
+            A: "English",
+            B: "Mandarin Chinese",
+            C: "Spanish",
+            D: "Hindi"
+            },
+            answer: "Mandarin Chinese"
+            },
+            
+            {
+            id: 23,
+            question: "Which language has the most number of speakers as their first language?",
+            options: {
+            A: "Mandarin Chinese",
+            B: "Spanish",
+            C: "English",
+            D: "Hindi"
+            },
+            answer: "Mandarin Chinese"
+            },
+            
+            {
+            id: 24,
+            question: "What is the most widely spoken language in the European Union?",
+            options: {
+            A: "English",
+            B: "French",
+            C: "German",
+            D: "Italian"
+            },
+            answer: "English"
+            },
+            
+            {
+            id: 25,
+            question: "What language is the official language of Brazil?",
+            options: {
+            A: "Portuguese",
+            B: "Spanish",
+            C: "French",
+            D: "Italian"
+            },
+            answer: "Portuguese"
+            }
+                                
 ]
 
 let answersTotal = questions.length;

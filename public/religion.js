@@ -24,63 +24,288 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "What is the name of the festival of lights celebrated by Hindus?",
+        options: {
+        A: "Holi",
+        B: "Diwali",
+        C: "Eid al-Fitr",
+        D: "Hanukkah"
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "Diwali"
+        },
+        
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "What is the name of the holy book of the Sikh religion?",
+        options: {
+        A: "Bhagavad Gita",
+        B: "Quran",
+        C: "Bible",
+        D: "Guru Granth Sahib"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Guru Granth Sahib"
+        },
+        
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "What is the name of the founder of the Bahá'í faith?",
+        options: {
+        A: "Bahá'u'lláh",
+        B: "Muhammad",
+        C: "Buddha",
+        D: "Jesus"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "Bahá'u'lláh"
+        },
+        
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "What is the name of the Japanese religion that centers around the veneration of nature spirits?",
+        options: {
+        A: "Shinto",
+        B: "Taoism",
+        C: "Confucianism",
+        D: "Zen"
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "Shinto"
+        },
+        
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "What is the name of the sacred river in Hinduism?",
+        options: {
+        A: "Nile",
+        B: "Ganges",
+        C: "Euphrates",
+        D: "Yangtze"
         },
-        answer : 'William Shakespeare'
-    }
+        answer: "Ganges"
+        },
+        
+        {
+        id: 6,
+        question: "What is the name of the founder of the Mormon religion?",
+        options: {
+        A: "Joseph Smith",
+        B: "Martin Luther",
+        C: "John Calvin",
+        D: "John Wesley"
+        },
+        answer: "Joseph Smith"
+        },
+        
+        {
+        id: 7,
+        question: "What is the name of the holy text in the Zoroastrian religion?",
+        options: {
+        A: "Torah",
+        B: "Vedas",
+        C: "Zend Avesta",
+        D: "Kojiki"
+        },
+        answer: "Zend Avesta"
+        },
+        
+        {
+        id: 8,
+        question: "What is the name of the Buddhist festival that celebrates the birth, enlightenment, and death of the Buddha?",
+        options: {
+        A: "Wesak",
+        B: "Diwali",
+        C: "Holi",
+        D: "Eid al-Fitr"
+        },
+        answer: "Wesak"
+        },
+        
+        {
+        id: 9,
+        question: "What is the name of the Islamic holy month of fasting?",
+        options: {
+        A: "Ramadan",
+        B: "Eid al-Fitr",
+        C: "Hajj",
+        D: "Zakat"
+        },
+        answer: "Ramadan"
+        },
+        
+        {
+        id: 10,
+        question: "What is the name of the holy book in the Jain religion?",
+        options: {
+        A: "Bhagavad Gita",
+        B: "Quran",
+        C: "Bible",
+        D: "Agamas"
+        },
+        answer: "Agamas"
+        },
+        {
+            id: 11,
+            question: "What religion believes that the universe and everything in it is a manifestation of the divine and that God is present in all things?",
+            options: {
+            A: "Buddhism",
+            B: "Jainism",
+            C: "Hinduism",
+            D: "Taoism"
+            },
+            answer: "Hinduism"
+            },
+            {
+            id: 12,
+            question: "Which religion believes that the founder, Bahá'u'lláh, is the most recent messenger of God?",
+            options: {
+            A: "Bahá'í Faith",
+            B: "Islam",
+            C: "Christianity",
+            D: "Judaism"
+            },
+            answer: "Bahá'í Faith"
+            },
+            {
+            id: 13,
+            question: "What religion believes that the Messiah has already arrived and that he is Jesus Christ?",
+            options: {
+            A: "Christianity",
+            B: "Judaism",
+            C: "Islam",
+            D: "Zoroastrianism"
+            },
+            answer: "Christianity"
+            },
+            {
+            id: 14,
+            question: "What religion is based on the teachings of Guru Nanak and stresses the importance of meditation and selfless service?",
+            options: {
+            A: "Sikhism",
+            B: "Buddhism",
+            C: "Jainism",
+            D: "Hinduism"
+            },
+            answer: "Sikhism"
+            },
+            {
+            id: 15,
+            question: "What religion believes in the existence of an all-powerful God and that the primary purpose of human life is to worship and obey God?",
+            options: {
+            A: "Islam",
+            B: "Judaism",
+            C: "Christianity",
+            D: "Hinduism"
+            },
+            answer: "Islam"
+            },
+            {
+            id: 16,
+            question: "What religion believes in the existence of multiple gods and goddesses and that the universe and everything in it is a manifestation of divine power?",
+            options: {
+            A: "Wicca",
+            B: "Hinduism",
+            C: "Judaism",
+            D: "Buddhism"
+            },
+            answer: "Hinduism"
+            },
+            {
+            id: 17,
+            question: "What religion believes that the universe is governed by the principles of Yin and Yang and that ultimate reality is beyond the reach of words and concepts?",
+            options: {
+            A: "Taoism",
+            B: "Confucianism",
+            C: "Shinto",
+            D: "Sikhism"
+            },
+            answer: "Taoism"
+            },
+            {
+            id: 18,
+            question: "What religion believes that the universe and all living things are interconnected and that human beings have a responsibility to protect the natural world?",
+            options: {
+            A: "Paganism",
+            B: "Buddhism",
+            C: "Judaism",
+            D: "Christianity"
+            },
+            answer: "Paganism"
+            },
+            {
+            id: 19,
+            question: "What religion believes that the ultimate goal of human existence is to achieve enlightenment and break free from the cycle of reincarnation?",
+            options: {
+            A: "Hinduism",
+            B: "Buddhism",
+            C: "Jainism",
+            D: "Sikhism"
+            },
+            answer: "Buddhism"
+            },
+            {
+                id: 20,
+                question: "What is the name of the sacred text in the Zoroastrian religion, which contains the teachings of the prophet Zoroaster?",
+                options: {
+                A: "Vedas",
+                B: "Bhagavad Gita",
+                C: "Zend Avesta",
+                D: "Quran"
+                },
+                answer: "Zend Avesta"
+                },            
+                {
+                    id: 21,
+                    question: "What is the name of the holy text in the Ayyavazhi religion, which originated in South India?",
+                    options: {
+                    A: "Vedas",
+                    B: "Bible",
+                    C: "Quran",
+                    D: "Akilathirattu Ammanai"
+                    },
+                    answer: "Akilathirattu Ammanai"
+                    },
+                    {
+                    id: 22,
+                    question: "What is the name of the Japanese religion that worships the god Amaterasu, the goddess of the sun?",
+                    options: {
+                    A: "Shinto",
+                    B: "Buddhism",
+                    C: "Confucianism",
+                    D: "Taoism"
+                    },
+                    answer: "Shinto"
+                    },
+                    {
+                    id: 23,
+                    question: "What is the name of the holiday celebrated by Muslims at the end of Ramadan?",
+                    options: {
+                    A: "Eid al-Adha",
+                    B: "Eid al-Fitr",
+                    C: "Ashura",
+                    D: "Hajj"
+                    },
+                    answer: "Eid al-Fitr"
+                    },
+                    {
+                    id: 24,
+                    question: "What is the name of the religion that combines elements of Christianity and traditional African beliefs and practices?",
+                    options: {
+                    A: "Voodoo",
+                    B: "Santeria",
+                    C: "Candomble",
+                    D: "Rastafarianism"
+                    },
+                    answer: "Santeria"
+                    },
+                    {
+                    id: 25,
+                    question: "What is the name of the holy text in the Sikh religion, which was compiled by the Sikh Gurus?",
+                    options: {
+                    A: "Guru Granth Sahib",
+                    B: "Bhagavad Gita",
+                    C: "Dhammapada",
+                    D: "Zend Avesta"
+                    },
+                    answer: "Guru Granth Sahib"
+                    }   
 ]
 
 let answersTotal = questions.length;

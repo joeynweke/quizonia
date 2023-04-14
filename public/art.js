@@ -78,6 +78,64 @@ let questions = [
       answer: "Aldous Huxley"
     },
     {
+      id: 6,
+      question: "Who is the Italian Renaissance artist known for painting 'The Birth of Venus' and 'Primavera'?",
+      options: {
+      A: "Michelangelo",
+      B: "Leonardo da Vinci",
+      C: "Raphael",
+      D: "Sandro Botticelli"
+      },
+      answer: "Sandro Botticelli"
+      },
+      
+      {
+      id: 7,
+      question: "What is the name of the museum in St. Petersburg, Russia that houses the largest collection of paintings in the world?",
+      options: {
+      A: "The Louvre",
+      B: "The British Museum",
+      C: "The Hermitage",
+      D: "The Prado"
+      },
+      answer: "The Hermitage"
+      },
+      {
+      id: 8,
+      question: "Who is the Mexican artist known for creating surrealist paintings such as 'The Two Fridas' and 'The Broken Column'?",
+      options: {
+      A: "Frida Kahlo",
+      B: "Diego Rivera",
+      C: "Pablo Picasso",
+      D: "Salvador Dali"
+      },
+      answer: "Frida Kahlo"
+      },
+      
+      {
+      id: 9,
+      question: "What is the name of the art movement that originated in Italy in the early 20th century and emphasized speed, technology, and the modern world?",
+      options: {
+      A: "Impressionism",
+      B: "Cubism",
+      C: "Futurism",
+      D: "Dadaism"
+      },
+      answer: "Futurism"
+      },
+      
+      {
+      id: 10,
+      question: "What is the name of the Japanese art form that involves folding paper into decorative shapes and figures?",
+      options: {
+      A: "Origami",
+      B: "Ikebana",
+      C: "Sumi-e",
+      D: "Chigiri-e"
+      },
+      answer: "Origami"
+      },
+    {
         id: 11,
         question: "What is the title of Ernest Hemingway's memoir about his time in Paris?",
         options: {
@@ -132,6 +190,117 @@ let questions = [
         },
         answer: "Jane Eyre"
       },
+      {
+        id: 16,
+        question: "What is the name of the famous sculpture by Michelangelo housed in the Vatican City?",
+        options: {
+        A: "The David",
+        B: "The Pieta",
+        C: "The Moses",
+        D: "The Sistine Chapel Ceiling"
+        },
+        answer: "The Pieta"
+        },
+      {
+        id: 17,
+        question: "Who is the creator of the 'Campbell's Soup Cans' artwork?",
+        options: {
+        A: "Andy Warhol",
+        B: "Salvador Dali",
+        C: "Pablo Picasso",
+        D: "Jackson Pollock"
+        },
+        answer: "Andy Warhol"
+        },
+        {
+        id: 18,
+        question: "What is the name of the famous fresco painted by Michelangelo in the Sistine Chapel?",
+        options: {
+        A: "The Last Supper",
+        B: "The Creation of Adam",
+        C: "The Temptation of Adam and Eve",
+        D: "The Resurrection of Christ"
+        },
+        answer: "The Creation of Adam"
+        },
+      {
+        id: 19,
+        question: "Who is the artist behind the sculpture 'The Thinker'?",
+        options: {
+        A: "Pablo Picasso",
+        B: "Auguste Rodin",
+        C: "Claude Monet",
+        D: "Salvador Dali"
+        },
+        answer: "Auguste Rodin"
+        },
+      {
+        id: 20,
+        question: "What is the name of the Dutch painter who created 'The Night Watch'?",
+        options: {
+        A: "Johannes Vermeer",
+        B: "Rembrandt van Rijn",
+        C: "Hieronymus Bosch",
+        D: "Pieter Bruegel the Elder"
+        },
+        answer: "Rembrandt van Rijn"
+        },
+      {
+        id: 21,
+        question: "Who is the artist behind the 'Campbell's Soup Cans' artwork?",
+        options: {
+        A: "Andy Warhol",
+        B: "Roy Lichtenstein",
+        C: "Mark Rothko",
+        D: "Willem de Kooning"
+        },
+        answer: "Andy Warhol"
+        },
+        {
+        id: 22,
+        question: "What is the name of the famous painting by Edvard Munch that depicts a figure screaming?",
+        options: {
+        A: "The Scream",
+        B: "Starry Night",
+        C: "The Persistence of Memory",
+        D: "Guernica"
+        },
+        answer: "The Scream"
+        },
+      {
+        id: 23,
+        question: "What is the name of the famous graffiti artist known for his distinctive stenciling technique?",
+        options: {
+        A: "Banksy",
+        B: "Keith Haring",
+        C: "Jean-Michel Basquiat",
+        D: "Shepard Fairey"
+        },
+        answer: "Banksy"
+        },
+        {
+        id: 24,
+        question: "What is the title of the landmark installation artwork created by Christo and Jeanne-Claude in 2005?",
+        options: {
+        A: "The Gates",
+        B: "The Wall",
+        C: "The Tower",
+        D: "The Pyramid"
+        },
+        answer: "The Gates"
+        },
+        
+        {
+        id: 25,
+        question: "Who is the artist known for creating sculptures made out of balloon animals?",
+        options: {
+        A: "Jeff Koons",
+        B: "Damien Hirst",
+        C: "Ai Weiwei",
+        D: "Yayoi Kusama"
+        },
+        answer: "Jeff Koons"
+        }
   ];
   
 

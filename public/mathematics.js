@@ -220,6 +220,84 @@ const questions = [
         },
         answer: "11"
       },
+      {
+        id: 19,
+        question: "What is the process of converting a decimal number to a binary number?",
+        options: {
+        A: "Division by 2",
+        B: "Multiplication by 2",
+        C: "Addition of 2",
+        D: "Subtraction of 2"
+        },
+        answer: "Division by 2"
+        },
+        {
+        id: 20,
+        question: "What is the difference between a conductor and an insulator?",
+        options: {
+        A: "A conductor allows electricity to flow through it easily while an insulator does not",
+        B: "A conductor absorbs electricity while an insulator does not",
+        C: "A conductor does not allow electricity to flow through it while an insulator does",
+        D: "A conductor and an insulator are the same thing"
+        },
+        answer: "A conductor allows electricity to flow through it easily while an insulator does not"
+        },
+        {
+        id: 21,
+        question: "What is the significance of the number zero in the binary number system?",
+        options: {
+        A: "It represents the end of a binary number",
+        B: "It represents the beginning of a binary number",
+        C: "It is not used in the binary number system",
+        D: "It is used to represent the absence of a digit in a binary number"
+        },
+        answer: "It is used to represent the absence of a digit in a binary number"
+        },
+        {
+        id: 22,
+        question: "What is the difference between a scalar and a vector?",
+        options: {
+        A: "A scalar has only magnitude while a vector has both magnitude and direction",
+        B: "A scalar has only direction while a vector has both magnitude and direction",
+        C: "A scalar has both magnitude and direction while a vector has only magnitude",
+        D: "A scalar and a vector are the same thing"
+        },
+        answer: "A scalar has only magnitude while a vector has both magnitude and direction"
+        },
+        {
+        id: 23,
+        question: "What is the difference between a rational number and an irrational number?",
+        options: {
+        A: "A rational number is a fraction while an irrational number is not",
+        B: "A rational number can be expressed as a terminating or repeating decimal while an irrational number cannot",
+        C: "A rational number can be expressed as an integer while an irrational number cannot",
+        D: "A rational number and an irrational number are the same thing"
+        },
+        answer: "A rational number can be expressed as a terminating or repeating decimal while an irrational number cannot"
+        },
+        {
+          id: 24,
+          question: "What is the difference between a succulent and a cactus?",
+          options: {
+          A: "A succulent has prickly spines while a cactus does not",
+          B: "A succulent stores water in its leaves while a cactus stores water in its stem",
+          C: "A succulent is a type of flowering plant while a cactus is not",
+          D: "A succulent and a cactus are the same thing"
+          },
+          answer: "A succulent stores water in its leaves while a cactus stores water in its stem"
+          },
+          
+          {
+            id: 25,
+            question: "What is the Pythagorean theorem?",
+            options: {
+            A: "The sum of the interior angles of a triangle equals 180 degrees",
+            B: "The area of a circle equals pi times the radius squared",
+            C: "The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides",
+            D: "The ratio of the circumference of a circle to its diameter equals pi"
+            },
+            answer: "The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides"
+            }         
   ];
   
 

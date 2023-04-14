@@ -78,7 +78,244 @@ let questions = [
       D: "Urbanization"
     },
     answer: "Deforestation"
-  }
+  },
+  {
+    id: 6,
+    question: "What is the term used to describe the process by which water evaporates from the leaves of plants?",
+    options: {
+    A: "Transpiration",
+    B: "Respiration",
+    C: "Evaporation",
+    D: "Condensation"
+    },
+    answer: "Transpiration"
+    },
+    
+    {
+    id: 7,
+    question: "What is the name of the largest species of fish, which is found in tropical and subtropical waters and can grow up to 40 feet in length?",
+    options: {
+    A: "Great white shark",
+    B: "Killer whale",
+    C: "Blue whale",
+    D: "Whale shark"
+    },
+    answer: "Whale shark"
+    },
+    
+    {
+    id: 8,
+    question: "What is the name of the process by which soil and rock are eroded and carried away by wind and water?",
+    options: {
+    A: "Weathering",
+    B: "Erosion",
+    C: "Deposition",
+    D: "Transportation"
+    },
+    answer: "Erosion"
+    },
+    
+    {
+    id: 9,
+    question: "What is the name of the phenomenon in which a large number of fish swim together in a coordinated manner, often creating intricate patterns in the water?",
+    options: {
+    A: "Fish swirl",
+    B: "Fish swarm",
+    C: "Fish whirl",
+    D: "Fish twirl"
+    },
+    answer: "Fish swarm"
+    },
+  {
+    id: 10,
+    question: "What is the term used to describe a group of porcupines?",
+    options: {
+    A: "Quillers",
+    B: "Prickles",
+    C: "Spines",
+    D: "Needles"
+    },
+    answer: "Prickles"
+    },
+    
+    {
+    id: 11,
+    question: "What is the name of the largest type of deer, which is native to the Arctic regions of North America, Europe, and Asia?",
+    options: {
+    A: "Moose",
+    B: "Elk",
+    C: "Reindeer",
+    D: "Caribou"
+    },
+    answer: "Moose"
+    },
+    
+    {
+    id: 12,
+    question: "What is the name of the phenomenon that occurs when a group of dolphins swim together and create a ring of bubbles to corral fish for easier feeding?",
+    options: {
+    A: "Bubble netting",
+    B: "Fish netting",
+    C: "Dolphin ring",
+    D: "Sea circling"
+    },
+    answer: "Bubble netting"
+    },
+    
+    {
+    id: 13,
+    question: "What is the name of the flowering plant that is known for its distinctive odor, which is often compared to that of rotting flesh?",
+    options: {
+    A: "Corpse flower",
+    B: "Stinking iris",
+    C: "Death lily",
+    D: "Rotting rose"
+    },
+    answer: "Corpse flower"
+    },
+    
+    {
+    id: 14,
+    question: "What is the term used to describe the process by which plants convert light energy into chemical energy, using water and carbon dioxide to produce oxygen and glucose?",
+    options: {
+    A: "Photosynthesis",
+    B: "Chemosynthesis",
+    C: "Hydrogenation",
+    D: "Aerobic respiration"
+    },
+    answer: "Photosynthesis"
+    },
+    
+    {
+    id: 15,
+    question: "What is the name of the brightly-colored bird that is native to Central and South America, and is known for its ability to mimic the sounds of other birds and animals?",
+    options: {
+    A: "Parrot",
+    B: "Toucan",
+    C: "Macaw",
+    D: "Hummingbird"
+    },
+    answer: "Macaw"
+    },
+    
+    {
+    id: 16,
+    question: "What is the name of the slow-moving, tree-dwelling mammal that is native to Central and South America, and is known for its distinctive claws and low metabolic rate?",
+    options: {
+    A: "Sloth",
+    B: "Armadillo",
+    C: "Anteater",
+    D: "Coati"
+    },
+    answer: "Sloth"
+    },
+    
+    {
+    id: 17,
+    question: "What is the name of the natural phenomenon that occurs when the Earth's magnetic field is disturbed by solar winds, causing a display of colorful lights in the night sky?",
+    options: {
+    A: "Aurora borealis",
+    B: "Solar flares",
+    C: "Northern lights",
+    D: "Magnetic storms"
+    },
+    answer: "Aurora borealis"
+    },
+    {
+      id: 18,
+      question: "What is the name of the smallest bird species in the world, found primarily in Cuba and the surrounding islands, and known for its iridescent feathers and unique high-pitched chirping sound?",
+      options: {
+      A: "Hummingbird",
+      B: "Wren",
+      C: "Finch",
+      D: "Sparrow"
+      },
+      answer: "Bee hummingbird"
+      },
+      
+      {
+      id: 19,
+      question: "What is the name of the largest living species of lizard, native to the Indonesian islands and known for its sharp teeth and venomous saliva?",
+      options: {
+      A: "Iguana",
+      B: "Chameleon",
+      C: "Komodo dragon",
+      D: "Gecko"
+      },
+      answer: "Komodo dragon"
+      },
+      
+      {
+      id: 20,
+      question: "What is the name of the natural phenomenon that occurs when warm air rises and cool air sinks, creating a rotating column of air that extends from the base of a cumulonimbus cloud to the ground?",
+      options: {
+      A: "Tornado",
+      B: "Hurricane",
+      C: "Thunderstorm",
+      D: "Dust devil"
+      },
+      answer: "Tornado"
+      },
+      
+      {
+      id: 21,
+      question: "What is the name of the rare and unusual geological feature found in some deserts, characterized by large, mushroom-shaped rocks that appear to defy gravity by balancing on narrow pedestals?",
+      options: {
+      A: "Rock arch",
+      B: "Stone pillar",
+      C: "Hoodoo",
+      D: "Natural arch"
+      },
+      answer: "Hoodoo"
+      },
+      
+      {
+      id: 22,
+      question: "What is the name of the bioluminescent phenomenon that occurs when certain types of plankton and bacteria emit a blue-green light in response to movement or disturbance in the water?",
+      options: {
+      A: "Bioluminescent bloom",
+      B: "Sea sparkle",
+      C: "Light wave",
+      D: "Phosphorescent glow"
+      },
+      answer: "Sea sparkle"
+      },
+      
+      {
+      id: 23,
+      question: "What is the name of the process by which sand dunes migrate over time, often creating unique shapes and patterns in the desert landscape?",
+      options: {
+      A: "Sand shift",
+      B: "Wind drift",
+      C: "Dune migration",
+      D: "Aeolian transport"
+      },
+      answer: "Dune migration"
+      },
+      
+      {
+      id: 24,
+      question: "What is the name of the naturally occurring, brightly colored mineral deposit that forms in caves and is often used in jewelry and decorative items?",
+      options: {
+      A: "Amber",
+      B: "Turquoise",
+      C: "Calcite",
+      D: "Agate"
+      },
+      answer: "Agate"
+      },
+      
+      {
+      id: 25,
+      question: "What is the name of the natural phenomenon that occurs when water droplets in the air refract sunlight, creating a colorful circular arc in the sky?",
+      options: {
+      A: "Rainbow",
+      B: "Sun dog",
+      C: "Halos",
+      D: "Mirage"
+      },
+      answer: "Rainbow"
+      }      
 ]
 
 let answersTotal = questions.length;

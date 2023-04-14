@@ -24,67 +24,306 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "What is the name of the lead singer of the band U2?",
+        options: {
+        A: "Bono",
+        B: "The Edge",
+        C: "Adam Clayton",
+        D: "Larry Mullen Jr."
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "Bono"
+        },
+        
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "Which 1980s hit song by Michael Jackson features a voiceover by horror film actor Vincent Price?",
+        options: {
+        A: "Beat It",
+        B: "Billie Jean",
+        C: "Thriller",
+        D: "Smooth Criminal"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Thriller"
+        },
+        
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "What is the name of the famous French electronic music duo who scored a worldwide hit with their 1998 song 'Da Funk'?",
+        options: {
+        A: "Air",
+        B: "Justice",
+        C: "Daft Punk",
+        D: "Kavinsky"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "Daft Punk"
+        },
+        
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "Who was the lead singer of the 1970s rock band Queen?",
+        options: {
+        A: "Freddie Mercury",
+        B: "Brian May",
+        C: "Roger Taylor",
+        D: "John Deacon"
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "Freddie Mercury"
+        },
+        
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "Which 1980s pop icon recorded the hit songs 'Like a Virgin' and 'Material Girl'?",
+        options: {
+        A: "Madonna",
+        B: "Cyndi Lauper",
+        C: "Whitney Houston",
+        D: "Cher"
         },
-        answer : 'William Shakespeare'
-    }
-]
+        answer: "Madonna"
+        },
+        
+        {
+        id: 6,
+        question: "What is the name of the English singer-songwriter who released her debut album '19' in 2008 and went on to win multiple Grammy Awards?",
+        options: {
+        A: "Adele",
+        B: "Duffy",
+        C: "Leona Lewis",
+        D: "Lily Allen"
+        },
+        answer: "Adele"
+        },
+        
+        {
+        id: 7,
+        question: "Which iconic British band released the hit song 'Stairway to Heaven' in 1971?",
+        options: {
+        A: "Led Zeppelin",
+        B: "The Rolling Stones",
+        C: "The Beatles",
+        D: "Pink Floyd"
+        },
+        answer: "Led Zeppelin"
+        },,
+        
+        {
+        id: 8,
+        question: "Who is the rapper responsible for the hit song 'Old Town Road', which spent a record-breaking 19 weeks at number one on the US Billboard Hot 100 chart?",
+        options: {
+        A: "Lil Nas X",
+        B: "Cardi B",
+        C: "Kendrick Lamar",
+        D: "Travis Scott"
+        },
+        answer: "Lil Nas X"
+        },
+        
+        {
+        id: 9,
+        question: "Which Canadian singer-songwriter released the hit album 'Jagged Little Pill' in 1995, which includes the popular songs 'Ironic' and 'You Oughta Know'?",
+        options: {
+        A: "Shania Twain",
+        B: "Celine Dion",
+        C: "Alanis Morissette",
+        D: "Sarah McLachlan"
+        },
+        answer: "Alanis Morisset"
+    },
+    {
+        id: 10,
+        question: "Who was the first musician to win a Nobel Prize in Literature, for 'having created new poetic expressions within the great American song tradition'?",
+        options: {
+        A: "Bob Dylan",
+        B: "Leonard Cohen",
+        C: "Joni Mitchell",
+        D: "Patti Smith"
+        },
+        answer: "Bob Dylan"
+        },
+        
+        {
+        id: 11,
+        question: "Which rock band's name is derived from a type of insect with a highly aggressive and territorial nature?",
+        options: {
+        A: "The Beatles",
+        B: "The Rolling Stones",
+        C: "Black Sabbath",
+        D: "The Scorpions"
+        },
+        answer: "The Scorpions"
+        },
+        
+        {
+        id: 12,
+        question: "Who wrote the classic opera 'The Barber of Seville', which features the famous aria 'Largo al factotum'?",
+        options: {
+        A: "Giuseppe Verdi",
+        B: "Wolfgang Amadeus Mozart",
+        C: "Richard Wagner",
+        D: "Gioachino Rossini"
+        },
+        answer: "Gioachino Rossini"
+        },
+        
+        {
+        id: 13,
+        question: "What is the name of the legendary rock band that was composed of Jimmy Page, Robert Plant, John Paul Jones, and John Bonham?",
+        options: {
+        A: "The Who",
+        B: "Led Zeppelin",
+        C: "Pink Floyd",
+        D: "The Doors"
+        },
+        answer: "Led Zeppelin"
+        },
+        
+        {
+        id: 14,
+        question: "Which famous classical composer was deaf for most of his life, but still managed to create some of the most beautiful music ever written?",
+        options: {
+        A: "Ludwig van Beethoven",
+        B: "Johann Sebastian Bach",
+        C: "Wolfgang Amadeus Mozart",
+        D: "Franz Schubert"
+        },
+        answer: "Ludwig van Beethoven"
+        },
+        
+        {
+        id: 15,
+        question: "What is the name of the electronic music duo composed of Guy-Manuel de Homem-Christo and Thomas Bangalter, who are famous for wearing robot helmets in their performances?",
+        options: {
+        A: "Daft Punk",
+        B: "The Chemical Brothers",
+        C: "The Prodigy",
+        D: "Justice"
+        },
+        answer: "Daft Punk"
+        },
+        
+        {
+        id: 16,
+        question: "Which jazz musician is known for his distinctive trumpet playing style, as well as his collaborations with vocalists like Ella Fitzgerald and Billie Holiday?",
+        options: {
+        A: "Miles Davis",
+        B: "Louis Armstrong",
+        C: "Dizzy Gillespie",
+        D: "Chet Baker"
+        },
+        answer: "Louis Armstrong"
+        },
+        
+        {
+        id: 17,
+        question: "What is the name of the American singer-songwriter who is known for her unique vocal style, as well as her activism and political views?",
+        options: {
+        A: "Nina Simone",
+        B: "Joni Mitchell",
+        C: "Joni Mitchell",
+        D: "Patti Smith"
+        },
+        answer: "Nina Simone"
+        },
+        {
+            id: 18,
+            question: "What is the name of the American composer who is known for his minimalist style, and whose works include 'Music for 18 Musicians' and 'Different Trains'?",
+            options: {
+            A: "John Adams",
+            B: "Steve Reich",
+            C: "Terry Riley",
+            D: "Philip Glass"
+            },
+            answer: "Steve Reich"
+            },
+            
+            {
+            id: 19,
+            question: "What is the name of the ancient Chinese musical instrument that is known for its distinctive sound and is often used in traditional Chinese music?",
+            options: {
+            A: "Guqin",
+            B: "Sheng",
+            C: "Erhu",
+            D: "Dizi"
+            },
+            answer: "Guqin"
+            },
+            
+            {
+            id: 20,
+            question: "What is the name of the Indian classical music system that is based on the concept of ragas, which are melodic frameworks that evoke different moods and emotions?",
+            options: {
+            A: "Hindustani",
+            B: "Carnatic",
+            C: "Dhrupad",
+            D: "Khyal"
+            },
+            answer: "Hindustani"
+            },
+            
+            {
+            id: 21,
+            question: "What is the name of the African instrument that is made from a calabash and played with the thumbs, and is often used in traditional African music?",
+            options: {
+            A: "Balafon",
+            B: "Mbira",
+            C: "Kora",
+            D: "Shekere"
+            },
+            answer: "Mbira"
+            },
+            
+            {
+            id: 22,
+            question: "What is the name of the musical technique that involves playing two notes at the same time, and is often used in certain styles of jazz and blues music?",
+            options: {
+            A: "Harmonic",
+            B: "Melodic",
+            C: "Polyphonic",
+            D: "Monophonic"
+            },
+            answer: "Harmonic"
+            },
+            
+            {
+            id: 23,
+            question: "What is the name of the traditional Korean musical genre that is characterized by its use of the gayageum, a twelve-stringed zither-like instrument?",
+            options: {
+            A: "Pansori",
+            B: "Jeongak",
+            C: "Sujecheon",
+            D: "Gagok"
+            },
+            answer: "Jeongak"
+            },
+            
+            {
+            id: 24,
+            question: "What is the name of the Canadian electronic music producer who is known for his experimental and avant-garde style, and whose albums include 'Visions' and 'Art Angels'?",
+            options: {
+            A: "Grimes",
+            B: "Caribou",
+            C: "Tim Hecker",
+            D: "Jessy Lanza"
+            },
+            answer: "Grimes"
+            },
+            
+            {
+            id: 25,
+            question: "What is the name of the genre of music that originated in the early 2000s and is characterized by its use of glitchy, chopped-up samples and unconventional rhythms?",
+            options: {
+            A: "Vaporwave",
+            B: "Seapunk",
+            C: "Future Funk",
+            D: "Wonky"
+            },
+            answer: "Wonky"
+            }
+        ]
 
+        
 let answersTotal = questions.length;
-let quizNumVal = quizNum.innerHTML = questions.length;
+let quizNumVal = quizNum.innerHTML = questions.length -1;
 let questCountVal = questionCount.innerHTML = 1;
 
 

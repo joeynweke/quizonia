@@ -24,63 +24,287 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "What is the fastest commercially available car in the world?",
+        options: {
+        A: "Koenigsegg Agera RS",
+        B: "Bugatti Chiron Super Sport 300+",
+        C: "Hennessey Venom F5",
+        D: "SSC Tuatara"
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "Bugatti Chiron Super Sport 300+"
+        },
+        
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "Which airline operates the longest non-stop commercial flight in the world?",
+        options: {
+        A: "Singapore Airlines",
+        B: "Emirates",
+        C: "Qantas",
+        D: "Etihad Airways"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Singapore Airlines"
+        },
+        
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "What is the name of the first supersonic passenger jet that entered commercial service in 1976?",
+        options: {
+        A: "Concorde",
+        B: "Boeing 747",
+        C: "Lockheed L-1011 TriStar",
+        D: "Airbus A380"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "Concorde"
+        },
+        
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "Which automobile manufacturer is responsible for producing the Prius, the world's first mass-produced hybrid vehicle?",
+        options: {
+        A: "Toyota",
+        B: "Ford",
+        C: "Chevrolet",
+        D: "Honda"
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "Toyota"
+        },
+        
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "What is the name of the first woman to fly solo across the Atlantic Ocean?",
+        options: {
+        A: "Bessie Coleman",
+        B: "Amelia Earhart",
+        C: "Harriet Quimby",
+        D: "Jacqueline Cochran"
         },
-        answer : 'William Shakespeare'
-    }
+        answer: "Amelia Earhart"
+        },
+        
+        {
+        id: 6,
+        question: "Which country is home to the world's busiest airport by international passenger traffic?",
+        options: {
+        A: "United States",
+        B: "China",
+        C: "United Kingdom",
+        D: "United Arab Emirates"
+        },
+        answer: "United Arab Emirates"
+        },
+        
+        {
+        id: 7,
+        question: "What is the name of the world's largest aircraft by wingspan?",
+        options: {
+        A: "Boeing 747",
+        B: "Airbus A380",
+        C: "Antonov An-225 Mriya",
+        D: "Lockheed C-5 Galaxy"
+        },
+        answer: "Antonov An-225 Mriya"
+        },
+        
+        {
+        id: 8,
+        question: "What is the name of the magnetic levitation train system that operates in Shanghai, China?",
+        options: {
+        A: "TGV",
+        B: "Hyperloop",
+        C: "Maglev",
+        D: "Bullet train"
+        },
+        answer: "Maglev"
+        },
+        
+        {
+        id: 9,
+        question: "What is the name of the world's first jet airliner that entered commercial service in 1952?",
+        options: {
+        A: "Boeing 707",
+        B: "Douglas DC-8",
+        C: "De Havilland Comet",
+        D: "Lockheed L-188 Electra"
+        },
+        answer: "De Havilland Comet"
+        },
+        {
+            id: 10,
+            question: "What is the name of the world's fastest production car, which has a top speed of 304 miles per hour?",
+            options: {
+            A: "Bugatti Veyron Super Sport",
+            B: "Koenigsegg Jesko",
+            C: "Hennessey Venom F5",
+            D: "SSC Tuatara"
+            },
+            answer: "SSC Tuatara"
+            },
+            {
+            id: 11,
+            question: "What type of aircraft was the famous American pilot Amelia Earhart flying when she disappeared over the Pacific Ocean in 1937?",
+            options: {
+            A: "Lockheed Vega",
+            B: "Curtiss Jenny",
+            C: "Boeing 247",
+            D: "Waco YMF"
+            },
+            answer: "Lockheed Vega"
+            },
+            {
+            id: 12,
+            question: "What is the name of the world's longest sea bridge, which connects Hong Kong, Zhuhai, and Macau?",
+            options: {
+            A: "Donghai Bridge",
+            B: "Hangzhou Bay Bridge",
+            C: "Chesapeake Bay Bridge-Tunnel",
+            D: "Hong Kong-Zhuhai-Macau Bridge"
+            },
+            answer: "Hong Kong-Zhuhai-Macau Bridge"
+            },
+            {
+            id: 13,
+            question: "What is the name of the world's first supersonic passenger airliner?",
+            options: {
+            A: "Concorde",
+            B: "Boeing 707",
+            C: "Airbus A380",
+            D: "Boeing 747"
+            },
+            answer: "Concorde"
+            },
+            {
+            id: 14,
+            question: "What type of vehicle is used in the sport of bobsleigh?",
+            options: {
+            A: "Motorcycle",
+            B: "Snowmobile",
+            C: "Car",
+            D: "Sled"
+            },
+            answer: "Sled"
+            },
+            {
+            id: 15,
+            question: "What is the name of the world's largest aircraft, which has a wingspan of 385 feet?",
+            options: {
+            A: "Airbus A380",
+            B: "Boeing 747-8",
+            C: "Antonov An-225 Mriya",
+            D: "Lockheed C-5 Galaxy"
+            },
+            answer: "Antonov An-225 Mriya"
+            },
+            {
+            id: 16,
+            question: "What is the name of the first commercial jet airliner?",
+            options: {
+            A: "Boeing 707",
+            B: "Douglas DC-3",
+            C: "Lockheed Constellation",
+            D: "de Havilland Comet"
+            },
+            answer: "de Havilland Comet"
+            },
+            {
+            id: 17,
+            question: "What is the name of the world's largest cruise ship, which has a capacity of over 6,000 passengers?",
+            options: {
+            A: "Symphony of the Seas",
+            B: "Harmony of the Seas",
+            C: "Allure of the Seas",
+            D: "Oasis of the Seas"
+            },
+            answer: "Symphony of the Seas"
+            },
+            {
+            id: 18,
+            question: "What is the name of the first satellite launched into space?",
+            options: {
+            A: "Explorer 1",
+            B: "Sputnik 1",
+            C: "Vanguard 1",
+            D: "Telstar 1"
+            },
+            answer: "Sputnik 1"
+        },
+        {
+            id: 19,
+            question: "What was the name of the first commercially available electric car?",
+            options: {
+            A: "Tesla Model S",
+            B: "Nissan Leaf",
+            C: "General Motors EV1",
+            D: "Toyota RAV4 EV"
+            },
+            answer: "General Motors EV1"
+            },
+            {
+            id: 20,
+            question: "What is the top speed of the fastest production motorcycle in the world?",
+            options: {
+            A: "250 mph",
+            B: "290 mph",
+            C: "305 mph",
+            D: "330 mph"
+            },
+            answer: "330 mph"
+            },
+            {
+            id: 21,
+            question: "What is the name of the world's first supersonic passenger jet?",
+            options: {
+            A: "Concorde",
+            B: "Boeing 747",
+            C: "Airbus A380",
+            D: "Boeing 787"
+            },
+            answer: "Concorde"
+            },
+            {
+            id: 22,
+            question: "What is the name of the largest airplane in the world by wingspan?",
+            options: {
+            A: "Antonov An-225 Mriya",
+            B: "Boeing 747-8",
+            C: "Airbus A380",
+            D: "Lockheed C-5 Galaxy"
+            },
+            answer: "Antonov An-225 Mriya"
+            },
+            {
+            id: 23,
+            question: "What was the first car to use a turbocharger?",
+            options: {
+            A: "Porsche 911 Turbo",
+            B: "BMW 2002 Turbo",
+            C: "Saab 99 Turbo",
+            D: "Chevrolet Corvair Monza Spyder"
+            },
+            answer: "Chevrolet Corvair Monza Spyder"
+            },
+            {
+            id: 24,
+            question: "What is the name of the first airplane to fly non-stop across the Atlantic Ocean?",
+            options: {
+            A: "Spirit of St. Louis",
+            B: "Boeing 747",
+            C: "Lockheed Constellation",
+            D: "Douglas DC-3"
+            },
+            answer: "Spirit of St. Louis"
+            },
+            {
+            id: 25,
+            question: "What is the name of the first commercial jet airliner?",
+            options: {
+            A: "Boeing 707",
+            B: "De Havilland Comet",
+            C: "Douglas DC-8",
+            D: "Lockheed L-1011 TriStar"
+            },
+            answer: "De Havilland Comet"
+            }      
 ]
 
 let answersTotal = questions.length;

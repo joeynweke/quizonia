@@ -24,63 +24,286 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "What was the name of Lady Gaga's first album, released in 2008?",
+        options: {
+        A: "The Fame",
+        B: "Born This Way",
+        C: "Artpop",
+        D: "Joanne"
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "The Fame"
+        },
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "What is the real name of the singer Halsey?",
+        options: {
+        A: "Ashley Nicolette Frangipane",
+        B: "Ashley Marie Lewis",
+        C: "Ashley Nicole Roberts",
+        D: "Ashley Victoria Beckham"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Ashley Nicolette Frangipane"
+        },
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "Which British singer-songwriter released the album '21' in 2011, which features the hit songs 'Rolling in the Deep' and 'Someone Like You'?",
+        options: {
+        A: "Adele",
+        B: "Jessie J",
+        C: "Rita Ora",
+        D: "Dua Lipa"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "Adele"
+        },
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "What is the name of the pop group that includes members Niall Horan, Harry Styles, Louis Tomlinson, Liam Payne, and formerly Zayn Malik?",
+        options: {
+        A: "The Vamps",
+        B: "5 Seconds of Summer",
+        C: "One Direction",
+        D: "Little Mix"
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "One Direction"
+        },
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "Which American singer released the album 'Lover' in 2019, which features the hit songs 'ME!' and 'You Need to Calm Down'?",
+        options: {
+        A: "Taylor Swift",
+        B: "Ariana Grande",
+        C: "Selena Gomez",
+        D: "Miley Cyrus"
         },
-        answer : 'William Shakespeare'
-    }
+        answer: "Taylor Swift"
+        },
+        {
+        id: 6,
+        question: "What is the name of the Canadian singer who released the album 'Emotion' in 2015, which features the hit song 'Run Away with Me'?",
+        options: {
+        A: "Carly Rae Jepsen",
+        B: "Avril Lavigne",
+        C: "Shania Twain",
+        D: "Celine Dion"
+        },
+        answer: "Carly Rae Jepsen"
+        },
+        {
+        id: 7,
+        question: "Which Australian singer-songwriter released the album 'Treat Myself' in 2020, which features the hit song 'NO EXCUSES'?",
+        options: {
+        A: "Sia",
+        B: "Tones and I",
+        C: "Delta Goodrem",
+        D: "Meghan Trainor"
+        },
+        answer: "Meghan Trainor"
+        },
+        {
+        id: 8,
+        question: "What is the name of the South Korean boy band that released the album 'Map of the Soul: 7' in 2020, which features the hit song 'ON'?",
+        options: {
+        A: "BTS",
+        B: "EXO",
+        C: "NCT",
+        D: "GOT7"
+        },
+        answer: "BTS"
+        },
+        {
+id: 9,
+question: "Which Canadian singer-songwriter released the hit album 'Jagged Little Pill' in 1995, which includes the popular songs 'Ironic' and 'You Oughta Know'?",
+options: {
+A: "Shania Twain",
+B: "Celine Dion",
+C: "Alanis Morissette",
+D: "Sarah McLachlan"
+},
+answer: "Alanis Morissette"
+},
+
+{
+id: 10,
+question: "Which pop star is known for her meat dress and hit songs such as 'Bad Romance' and 'Poker Face'?",
+options: {
+A: "Britney Spears",
+B: "Madonna",
+C: "Katy Perry",
+D: "Lady Gaga"
+},
+answer: "Lady Gaga"
+},
+
+{
+id: 11,
+question: "Who is the English singer-songwriter and actor, known for his role as 'Kipps' in the musical 'Half a Sixpence' and his hit song 'Healing'?",
+options: {
+A: "Harry Styles",
+B: "Ed Sheeran",
+C: "Tom Holland",
+D: "Alex Brightman"
+},
+answer: "Alex Brightman"
+},
+
+{
+id: 12,
+question: "What is the name of the American pop rock band known for their hit songs 'She's So High' and 'Be My Yoko Ono'?",
+options: {
+A: "The Cars",
+B: "Barenaked Ladies",
+C: "Weezer",
+D: "Matchbox Twenty"
+},
+answer: "Barenaked Ladies"
+},
+
+{
+id: 13,
+question: "Which Australian pop singer is known for her hit songs 'Torn' and 'Smoke'?",
+options: {
+A: "Kylie Minogue",
+B: "Delta Goodrem",
+C: "Natalie Imbruglia",
+D: "Sia"
+},
+answer: "Natalie Imbruglia"
+},
+
+{
+id: 14,
+question: "Who is the pop singer known for her hit songs 'Bleeding Love' and 'Better in Time'?",
+options: {
+A: "Adele",
+B: "Leona Lewis",
+C: "Rihanna",
+D: "Taylor Swift"
+},
+answer: "Leona Lewis"
+},
+
+{
+id: 15,
+question: "What is the name of the American girl group known for their hit songs 'Waterfalls' and 'No Scrubs'?",
+options: {
+A: "TLC",
+B: "Destiny's Child",
+C: "En Vogue",
+D: "SWV"
+},
+answer: "TLC"
+},
+
+{
+id: 16,
+question: "Which British singer-songwriter is known for his hit songs 'Stay with Me' and 'I'm Not the Only One'?",
+options: {
+A: "Sam Smith",
+B: "James Bay",
+C: "George Ezra",
+D: "Ed Sheeran"
+},
+answer: "Sam Smith"
+},
+{
+    id: 17,
+    question: "Which pop artist released the hit song 'Toxic' in 2003?",
+    options: {
+    A: "Britney Spears",
+    B: "Christina Aguilera",
+    C: "Jessica Simpson",
+    D: "Mandy Moore"
+    },
+    answer: "Britney Spears"
+    },
+    {
+    id: 18,
+    question: "What was the name of the band that Justin Timberlake was a part of before becoming a solo artist?",
+    options: {
+    A: "Backstreet Boys",
+    B: "NSYNC",
+    C: "New Kids on the Block",
+    D: "98 Degrees"
+    },
+    answer: "NSYNC"
+    },
+    {
+    id: 19,
+    question: "Which pop star was born with the name Stefani Joanne Angelina Germanotta?",
+    options: {
+    A: "Taylor Swift",
+    B: "Beyonce",
+    C: "Ariana Grande",
+    D: "Lady Gaga"
+    },
+    answer: "Lady Gaga"
+    },
+    {
+    id: 20,
+    question: "Which pop duo had a hit with the song 'Ain't No Mountain High Enough' in 1967?",
+    options: {
+    A: "Simon & Garfunkel",
+    B: "The Beatles",
+    C: "The Supremes",
+    D: "The Beach Boys"
+    },
+    answer: "The Supremes"
+    },
+    {
+    id: 21,
+    question: "Which pop singer released the album '25' in 2015?",
+    options: {
+    A: "Adele",
+    B: "Rihanna",
+    C: "Katy Perry",
+    D: "Miley Cyrus"
+    },
+    answer: "Adele"
+    },
+    {
+    id: 22,
+    question: "Which pop group released the hit song 'MmmBop' in 1997?",
+    options: {
+    A: "Hanson",
+    B: "Backstreet Boys",
+    C: "NSYNC",
+    D: "98 Degrees"
+    },
+    answer: "Hanson"
+    },
+    {
+    id: 23,
+    question: "Which pop star is known for her alter ego Sasha Fierce?",
+    options: {
+    A: "Beyonce",
+    B: "Ariana Grande",
+    C: "Katy Perry",
+    D: "Taylor Swift"
+    },
+    answer: "Beyonce"
+    },
+    {
+    id: 24,
+    question: "Which pop singer released the hit song 'Genie in a Bottle' in 1999?",
+    options: {
+    A: "Britney Spears",
+    B: "Christina Aguilera",
+    C: "Jessica Simpson",
+    D: "Mandy Moore"
+    },
+    answer: "Christina Aguilera"
+    },
+    {
+    id: 25,
+    question: "Which pop group released the hit song 'I Want It That Way' in 1999?",
+    options: {
+    A: "Backstreet Boys",
+    B: "NSYNC",
+    C: "New Kids on the Block",
+    D: "98 Degrees"
+    },
+    answer: "Backstreet Boys"
+    }    
 ]
 
 let answersTotal = questions.length;

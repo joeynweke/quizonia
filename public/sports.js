@@ -24,63 +24,293 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "Who is the only athlete to have won Olympic gold medals in both the 100 meters and the long jump?",
+        options: {
+        A: "Usain Bolt",
+        B: "Jesse Owens",
+        C: "Carl Lewis",
+        D: "Michael Johnson"
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "Carl Lewis"
+        },
+        
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "What is the only country to have played in every soccer World Cup since its inception in 1930?",
+        options: {
+        A: "Brazil",
+        B: "Germany",
+        C: "Italy",
+        D: "Argentina"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Brazil"
+        },
+        
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "What sport was played by NASA astronauts on the moon?",
+        options: {
+        A: "Golf",
+        B: "Tennis",
+        C: "Basketball",
+        D: "Volleyball"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "Golf"
+        },
+        
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "Which NFL team won the first Super Bowl in 1967?",
+        options: {
+        A: "Green Bay Packers",
+        B: "New York Jets",
+        C: "Kansas City Chiefs",
+        D: "Baltimore Colts"
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "Green Bay Packers"
+        },
+        
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "What is the oldest professional football club in the world?",
+        options: {
+        A: "Sheffield FC",
+        B: "Notts County",
+        C: "Arsenal FC",
+        D: "Liverpool FC"
         },
-        answer : 'William Shakespeare'
-    }
+        answer: "Sheffield FC"
+        },
+        
+        {
+        id: 6,
+        question: "Who is the only boxer to have won world titles in five weight classes?",
+        options: {
+        A: "Manny Pacquiao",
+        B: "Floyd Mayweather Jr.",
+        C: "Sugar Ray Leonard",
+        D: "Oscar De La Hoya"
+        },
+        answer: "Manny Pacquiao"
+        },
+        
+        {
+        id: 7,
+        question: "What is the name of the international governing body for the sport of squash?",
+        options: {
+        A: "World Squash Federation",
+        B: "International Squash Association",
+        C: "Squash Racquets Association",
+        D: "Squash Players Association"
+        },
+        answer: "World Squash Federation"
+        },
+        
+        {
+        id: 8,
+        question: "What is the name of the only horse to have won the Triple Crown with an undefeated record?",
+        options: {
+        A: "Seattle Slew",
+        B: "Secretariat",
+        C: "American Pharoah",
+        D: "Justify"
+        },
+        answer: "Justify"
+        },
+        
+        {
+        id: 9,
+        question: "What is the name of the annual international rugby union competition contested by England, France, Ireland, Italy, Scotland, and Wales?",
+        options: {
+        A: "Six Nations",
+        B: "Tri-Nations",
+        C: "Rugby Championship",
+        D: "Bledisloe Cup"
+        },
+        answer: "Six Nations"
+        },
+        {
+            id: 10,
+            question: "Who was the first woman to win a Nobel Prize?",
+            options: {
+            A: "Marie Curie",
+            B: "Rosalind Franklin",
+            C: "Dorothy Crowfoot Hodgkin",
+            D: "Barbara McClintock"
+            },
+            answer: "Marie Curie"
+            },
+            {
+                id: 11,
+                question: "Who was the first woman to win a Nobel Prize?",
+                options: {
+                A: "Marie Curie",
+                B: "Rosalind Franklin",
+                C: "Dorothy Crowfoot Hodgkin",
+                D: "Barbara McClintock"
+                },
+                answer: "Marie Curie"
+                },
+                {
+                id: 12,
+                question: "What is the name of the first cloned mammal?",
+                options: {
+                A: "Dolly",
+                B: "Fiona",
+                C: "Molly",
+                D: "Lola"
+                },
+                answer: "Dolly"
+                },
+                {
+                id: 13,
+                question: "What is the largest planet in our solar system?",
+                options: {
+                A: "Saturn",
+                B: "Neptune",
+                C: "Jupiter",
+                D: "Uranus"
+                },
+                answer: "Jupiter"
+                },
+                {
+                id: 14,
+                question: "What was the first video game ever made?",
+                options: {
+                A: "Pong",
+                B: "Tetris",
+                C: "Space Invaders",
+                D: "Pac-Man"
+                },
+                answer: "Pong"
+                },
+                {
+                id: 15,
+                question: "Who is considered the father of modern computing?",
+                options: {
+                A: "Alan Turing",
+                B: "Charles Babbage",
+                C: "Steve Jobs",
+                D: "Bill Gates"
+                },
+                answer: "Alan Turing"
+                },
+                {
+                id: 16,
+                question: "What is the smallest country in the world?",
+                options: {
+                A: "Vatican City",
+                B: "Monaco",
+                C: "Nauru",
+                D: "Tuvalu"
+                },
+                answer: "Vatican City"
+                },
+                {
+                id: 17,
+                question: "Who invented the World Wide Web?",
+                options: {
+                A: "Tim Berners-Lee",
+                B: "Steve Jobs",
+                C: "Bill Gates",
+                D: "Mark Zuckerberg"
+                },
+                answer: "Tim Berners-Lee"
+                },
+                {
+                id: 18,
+                question: "What is the highest mountain in Africa?",
+                options: {
+                A: "Mount Kilimanjaro",
+                B: "Mount Everest",
+                C: "Mount Denali",
+                D: "Mount McKinley"
+                },
+                answer: "Mount Kilimanjaro"
+                },
+                {
+                id: 19,
+                question: "Who wrote the book '1984'?",
+                options: {
+                A: "George Orwell",
+                B: "J.D. Salinger",
+                C: "Ernest Hemingway",
+                D: "F. Scott Fitzgerald"
+                },
+                answer: "George Orwell"
+                },
+                {
+                id: 20,
+                question: "What is the capital city of Australia?",
+                options: {
+                A: "Sydney",
+                B: "Melbourne",
+                C: "Brisbane",
+                D: "Canberra"
+                },
+                answer: "Canberra"
+                },
+
+                {
+                    id: 21,
+                    question: "What is the term for the fear of long words?",
+                    options: {
+                    A: "Hippopotomonstrosesquipedaliophobia",
+                    B: "Sesquipedalophobia",
+                    C: "Glossophobia",
+                    D: "Arachibutyrophobia"
+                    },
+                    answer: "Hippopotomonstrosesquipedaliophobia"
+                    },
+                    
+                    {
+                    id: 22,
+                    question: "What is the scientific term for the study of fingerprints?",
+                    options: {
+                    A: "Dactylography",
+                    B: "Dermatoglyphics",
+                    C: "Cheiloscopy",
+                    D: "Trichology"
+                    },
+                    answer: "Dermatoglyphics"
+                    },
+                    
+                    {
+                    id: 23,
+                    question: "Which country is home to the world's smallest mammal, the bumblebee bat?",
+                    options: {
+                    A: "Thailand",
+                    B: "Malaysia",
+                    C: "Indonesia",
+                    D: "Philippines"
+                    },
+                    answer: "Thailand"
+                    },
+                    
+                    {
+                    id: 24,
+                    question: "What is the name for the fear of palindromes?",
+                    options: {
+                    A: "Aibohphobia",
+                    B: "Ergophobia",
+                    C: "Nosophobia",
+                    D: "Triskaidekaphobia"
+                    },
+                    answer: "Aibohphobia"
+                    },
+                    
+                    {
+                    id: 25,
+                    question: "What is the only continent that is also a country?",
+                    options: {
+                    A: "Europe",
+                    B: "Asia",
+                    C: "Australia",
+                    D: "South America"
+                    },
+                    answer: "Australia"
+                    }
+
 ]
 
 let answersTotal = questions.length;

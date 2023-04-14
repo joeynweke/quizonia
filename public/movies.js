@@ -24,63 +24,300 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "In the movie 'The Truman Show', what is Truman Burbank's job?",
+        options: {
+        A: "Weatherman",
+        B: "Insurance salesman",
+        C: "Car salesman",
+        D: "Banker"
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "Insurance salesman"
+        },
+        
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "What is the name of the fictional African country that is the setting for the movie 'Black Panther'?",
+        options: {
+        A: "Wakanda",
+        B: "Zamunda",
+        C: "Nigeria",
+        D: "Sokovia"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Wakanda"
+        },
+        
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "What is the name of the character played by Tom Cruise in the movie 'Edge of Tomorrow'?",
+        options: {
+        A: "Bill Cage",
+        B: "John Anderton",
+        C: "Jack Reacher",
+        D: "Ethan Hunt"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "Bill Cage"
+        },
+        
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "What is the name of the actor who played Dracula in the 1992 movie 'Bram Stoker's Dracula'?",
+        options: {
+        A: "Gary Oldman",
+        B: "Anthony Hopkins",
+        C: "Keanu Reeves",
+        D: "Winona Ryder"
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "Gary Oldman"
+        },
+        
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "What is the name of the character played by Charlize Theron in the movie 'Mad Max: Fury Road'?",
+        options: {
+        A: "Imperator Furiosa",
+        B: "Max Rockatansky",
+        C: "Nux",
+        D: "Immortan Joe"
         },
-        answer : 'William Shakespeare'
-    }
+        answer: "Imperator Furiosa"
+        },
+        
+        {
+        id: 6,
+        question: "What is the name of the computer program that causes chaos in the movie 'The Matrix'?",
+        options: {
+        A: "Neo",
+        B: "Morpheus",
+        C: "Trinity",
+        D: "Agent Smith"
+        },
+        answer: "Agent Smith"
+        },
+        
+        {
+        id: 7,
+        question: "What is the name of the character played by Benicio Del Toro in the movie 'Sicario'?",
+        options: {
+        A: "Alejandro Gillick",
+        B: "Matt Graver",
+        C: "Kate Macer",
+        D: "Teddy"
+        },
+        answer: "Alejandro Gillick"
+        },
+        
+        {
+        id: 8,
+        question: "What is the name of the actress who played Princess Leia in the 'Star Wars' movies?",
+        options: {
+        A: "Natalie Portman",
+        B: "Carrie Fisher",
+        C: "Daisy Ridley",
+        D: "Felicity Jones"
+        },
+        answer: "Carrie Fisher"
+        },
+        
+        {
+        id: 9,
+        question: "In the movie 'Inception', what is the name of the device used to enter people's dreams?",
+        options: {
+        A: "Dream Weaver",
+        B: "Dream Catcher",
+        C: "Dream Extractor",
+        D: "Dream Machine"
+        },
+        answer: "Dream Machine"
+        },
+        {
+            id: 10,
+            question: "In the movie 'The Shawshank Redemption', what was the occupation of the character Brooks Hatlen?",
+            options: {
+            A: "Prison Guard",
+            B: "Prisoner",
+            C: "Janitor",
+            D: "Cook"
+            },
+            answer: "Prison Librarian"
+            },
+    {
+        id: 11,
+        question: "Who directed the movie 'Jurassic Park'?",
+        options: {
+        A: "Steven Spielberg",
+        B: "James Cameron",
+        C: "Christopher Nolan",
+        D: "Quentin Tarantino"
+        },
+        answer: "Steven Spielberg"
+        },
+        
+        {
+        id: 12,
+        question: "What is the highest-grossing movie of all time?",
+        options: {
+        A: "Avengers: Endgame",
+        B: "Avatar",
+        C: "Titanic",
+        D: "Star Wars: The Force Awakens"
+        },
+        answer: "Avatar"
+        },
+        
+        {
+        id: 13,
+        question: "What is the name of the protagonist in the movie 'The Matrix'?",
+        options: {
+        A: "John Wick",
+        B: "Neo",
+        C: "Trinity",
+        D: "Morpheus"
+        },
+        answer: "Neo"
+        },
+        
+        {
+        id: 14,
+        question: "Who played the role of the Joker in the 2008 movie 'The Dark Knight'?",
+        options: {
+        A: "Jared Leto",
+        B: "Heath Ledger",
+        C: "Jack Nicholson",
+        D: "Mark Hamill"
+        },
+        answer: "Heath Ledger"
+        },
+        
+        {
+        id: 15,
+        question: "What is the name of the main character in the movie 'Forrest Gump'?",
+        options: {
+        A: "Forrest Gump",
+        B: "Bubba Blue",
+        C: "Jenny Curran",
+        D: "Lieutenant Dan"
+        },
+        answer: "Forrest Gump"
+        },
+        
+        {
+        id: 16,
+        question: "Which actress won an Oscar for her performance in the movie 'La La Land'?",
+        options: {
+        A: "Jennifer Lawrence",
+        B: "Meryl Streep",
+        C: "Emma Stone",
+        D: "Natalie Portman"
+        },
+        answer: "Emma Stone"
+        },
+        
+        {
+        id: 17,
+        question: "Who played the role of Rocky Balboa in the 'Rocky' movie series?",
+        options: {
+        A: "Sylvester Stallone",
+        B: "Arnold Schwarzenegger",
+        C: "Bruce Willis",
+        D: "Dwayne Johnson"
+        },
+        answer: "Sylvester Stallone"
+        },
+        
+        {
+        id: 18,
+        question: "What is the name of the robot in the movie 'WALL-E'?",
+        options: {
+        A: "EVE",
+        B: "R2-D2",
+        C: "BB-8",
+        D: "C-3PO"
+        },
+        answer: "WALL-E"
+        },
+        
+        {
+        id: 19,
+        question: "What is the name of the character played by Will Smith in the movie 'Men in Black'?",
+        options: {
+        A: "Agent J",
+        B: "Agent K",
+        C: "Agent L",
+        D: "Agent M"
+        },
+        answer: "Agent J"
+        },
+        {
+            id: 20,
+            question: "Who directed the 1975 movie Jaws?",
+            options: {
+            A: "Steven Spielberg",
+            B: "George Lucas",
+            C: "Francis Ford Coppola",
+            D: "Martin Scorsese"
+            },
+            answer: "Steven Spielberg"
+            },
+            {
+                id: 21,
+                question: "In the movie 'Her', who voices the AI operating system named Samantha?",
+                options: {
+                A: "Scarlett Johansson",
+                B: "Emma Stone",
+                C: "Jennifer Lawrence",
+                D: "Anne Hathaway"
+                },
+                answer: "Scarlett Johansson"
+                },
+                
+                {
+                id: 22,
+                question: "What is the name of the character played by Clint Eastwood in the movie 'Dirty Harry'?",
+                options: {
+                A: "Harry Callahan",
+                B: "Frank Bullitt",
+                C: "John McClane",
+                D: "John Rambo"
+                },
+                answer: "Harry Callahan"
+                },
+                
+                {
+                id: 23,
+                question: "Who directed the 2019 movie 'Parasite', which won Best Picture at the Academy Awards?",
+                options: {
+                A: "Bong Joon-ho",
+                B: "Park Chan-wook",
+                C: "Kim Jee-woon",
+                D: "Hong Sang-soo"
+                },
+                answer: "Bong Joon-ho"
+                },
+                
+                {
+                id: 24,
+                question: "What is the name of the hobbit played by Elijah Wood in 'The Lord of the Rings' trilogy?",
+                options: {
+                A: "Frodo Baggins",
+                B: "Bilbo Baggins",
+                C: "Samwise Gamgee",
+                D: "Meriadoc Brandybuck"
+                },
+                answer: "Frodo Baggins"
+                },
+                
+                {
+                id: 25,
+                question: "Which of the following actors did NOT play James Bond in an official movie of the franchise?",
+                options: {
+                A: "Pierce Brosnan",
+                B: "Sean Connery",
+                C: "Daniel Craig",
+                D: "Roger Moore"
+                },
+                answer: "Jason Statham"
+                }
+            
 ]
 
 let answersTotal = questions.length;

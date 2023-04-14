@@ -179,6 +179,136 @@ let questions = [
     },
     answer: "Streaming"
   },
+  {
+    id: 15,
+    question: "What is the name of the first computer virus, which was created in 1986?",
+    options: {
+    A: "Brain",
+    B: "ILOVEYOU",
+    C: "Melissa",
+    D: "Stuxnet"
+    },
+    answer: "Brain"
+    },
+    
+    {
+    id: 16,
+    question: "What is the phenomenon where quantum particles are able to communicate with each other instantaneously, regardless of distance?",
+    options: {
+    A: "Quantum entanglement",
+    B: "Quantum superposition",
+    C: "Quantum tunneling",
+    D: "Quantum coherence"
+    },
+    answer: "Quantum entanglement"
+    },
+    
+    {
+    id: 17,
+    question: "What is the name of the programming language that was created by Guido van Rossum in the late 1980s?",
+    options: {
+    A: "Java",
+    B: "Python",
+    C: "C++",
+    D: "Ruby"
+    },
+    answer: "Python"
+    },
+    
+    {
+    id: 18,
+    question: "What is the name of the first artificial satellite, launched into orbit by the Soviet Union in 1957?",
+    options: {
+    A: "Vanguard 1",
+    B: "Explorer 1",
+    C: "Sputnik 1",
+    D: "Terra 1"
+    },
+    answer: "Sputnik 1"
+    },
+    
+    {
+    id: 19,
+    question: "What is the name of the theory that explains how the universe was formed after the Big Bang?",
+    options: {
+    A: "String theory",
+    B: "Loop quantum gravity",
+    C: "Cosmic inflation",
+    D: "Dark matter theory"
+    },
+    answer: "Cosmic inflation"
+    },
+    
+    {
+    id: 20,
+    question: "What is the name of the programming language that was created by Bjarne Stroustrup in the early 1980s?",
+    options: {
+    A: "C#",
+    B: "C++",
+    C: "Java",
+    D: "Swift"
+    },
+    answer: "C++"
+    },
+    
+    {
+    id: 21,
+    question: "What is the name of the particle that was first theorized by Peter Higgs and François Englert in the 1960s?",
+    options: {
+    A: "Boson",
+    B: "Muon",
+    C: "Electron",
+    D: "Neutrino"
+    },
+    answer: "Boson"
+    },
+    
+    {
+    id: 22,
+    question: "What is the name of the first commercially successful personal computer, released by Apple in 1977?",
+    options: {
+    A: "Macintosh",
+    B: "Apple II",
+    C: "Lisa",
+    D: "iMac"
+    },
+    answer: "Apple II"
+    },
+    
+    {
+    id: 23,
+    question: "What is the name of the mission launched by NASA in 2004 to explore the surface of Mars?",
+    options: {
+    A: "Curiosity",
+    B: "Mars Express",
+    C: "Opportunity",
+    D: "Viking 1"
+    },
+    answer: "Opportunity"
+    },
+    {
+      id: 24,
+      question: "What is the name of the first successful living organism to be cloned?",
+      options: {
+      A: "Dolly",
+      B: "Polly",
+      C: "Molly",
+      D: "Lolly"
+      },
+      answer: "Dolly"
+      },
+      
+      {
+      id: 25,
+      question: "What is the name of the first computer virus?",
+      options: {
+      A: "Brain",
+      B: "Stuxnet",
+      C: "ILOVEYOU",
+      D: "Melissa"
+      },
+      answer: "Brain"
+      },
 ]
 
 let answersTotal = questions.length;

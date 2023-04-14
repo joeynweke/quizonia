@@ -25,59 +25,291 @@ let seeScore = document.getElementById("see-score")
 let questions = [
   {
     id: 1,
-    question: "What is the capital of France?",
+    question: "What is the largest country in the world by land area?",
     options: {
-      A: "Paris",
-      B: "London",
-      C: "Rome",
-      D: "Berlin"
+    A: "Russia",
+    B: "Canada",
+    C: "China",
+    D: "United States"
     },
-    answer: "Paris"
-  },
-  {
+    answer: "Russia"
+    },
+    {
     id: 2,
-    question: "What is the currency of Japan?",
-    options: {
-      A: "Yen",
-      B: "Won",
-      C: "Dollar",
-      D: "Euro"
-    },
-    answer: "Yen"
-  },
-  {
-    id: 3,
     question: "What is the largest ocean in the world?",
     options: {
-      A: "Atlantic Ocean",
-      B: "Indian Ocean",
-      C: "Southern Ocean",
-      D: "Pacific Ocean"
+    A: "Pacific Ocean",
+    B: "Atlantic Ocean",
+    C: "Indian Ocean",
+    D: "Arctic Ocean"
     },
     answer: "Pacific Ocean"
-  },
-  {
+    },
+    {
+    id: 3,
+    question: "What is the smallest continent in the world?",
+    options: {
+    A: "Australia",
+    B: "Antarctica",
+    C: "Europe",
+    D: "Africa"
+    },
+    answer: "Australia"
+    },
+    {
     id: 4,
-    question: "Who wrote the novel 'Pride and Prejudice'?",
+    question: "What is the capital of South Africa?",
     options: {
-      A: "Jane Austen",
-      B: "William Shakespeare",
-      C: "Charles Dickens",
-      D: "Emily Bronte"
+    A: "Pretoria",
+    B: "Johannesburg",
+    C: "Cape Town",
+    D: "Durban"
     },
-    answer: "Jane Austen"
-  },
-  {
+    answer: "Pretoria"
+    },
+    {
     id: 5,
-    question: "What is the tallest mountain in the world?",
+    question: "What is the currency of Japan?",
     options: {
-      A: "Mount Everest",
-      B: "K2",
-      C: "Lhotse",
-      D: "Makalu"
+    A: "Yen",
+    B: "Dollar",
+    C: "Euro",
+    D: "Pound"
     },
-    answer: "Mount Everest"
-  }
+    answer: "Yen"
+    },
+    {
+    id: 6,
+    question: "What is the largest desert in the world?",
+    options: {
+    A: "Sahara Desert",
+    B: "Gobi Desert",
+    C: "Arabian Desert",
+    D: "Antarctic Desert"
+    },
+    answer: "Antarctic Desert"
+    },
+    {
+    id: 7,
+    question: "What is the highest waterfall in the world?",
+    options: {
+    A: "Angel Falls",
+    B: "Niagara Falls",
+    C: "Victoria Falls",
+    D: "Iguazu Falls"
+    },
+    answer: "Angel Falls"
+    },
+    {
+    id: 8,
+    question: "What is the smallest country in the world by land area?",
+    options: {
+    A: "Vatican City",
+    B: "Monaco",
+    C: "Nauru",
+    D: "San Marino"
+    },
+    answer: "Vatican City"
+    },
+    {
+    id: 9,
+    question: "What is the largest river in the world by volume?",
+    options: {
+    A: "Amazon River",
+    B: "Nile River",
+    C: "Yangtze River",
+    D: "Mississippi River"
+    },
+    answer: "Amazon River"
+    },
+    {
+    id: 10,
+    question: "What is the largest lake in the world by surface area?",
+    options: {
+    A: "Caspian Sea",
+    B: "Lake Superior",
+    C: "Lake Victoria",
+    D: "Lake Huron"
+    },
+    answer: "Caspian Sea"
+    },
+    {
+    id: 11,
+    question: "What is the capital of Russia?",
+    options: {
+    A: "Moscow",
+    B: "Saint Petersburg",
+    C: "Novosibirsk",
+    D: "Yekaterinburg"
+    },
+    answer: "Moscow"
+    },
+    {
+      id: 12,
+      question: "What is the capital city of Spain?",
+      options: {
+      A: "Barcelona",
+      B: "Madrid",
+      C: "Seville",
+      D: "Valencia"
+      },
+      answer: "Madrid"
+      },
+      
+      {
+      id: 13,
+      question: "What is the largest desert in the world?",
+      options: {
+      A: "Sahara Desert",
+      B: "Arabian Desert",
+      C: "Gobi Desert",
+      D: "Antarctica"
+      },
+      answer: "Antarctica"
+      },
+      
+      {
+      id: 14,
+      question: "What is the name of the smallest planet in our solar system?",
+      options: {
+      A: "Venus",
+      B: "Mars",
+      C: "Mercury",
+      D: "Neptune"
+      },
+      answer: "Mercury"
+      },
+      
+      {
+      id: 15,
+      question: "What is the largest animal on Earth?",
+      options: {
+      A: "Blue Whale",
+      B: "Elephant",
+      C: "Giraffe",
+      D: "Hippopotamus"
+      },
+      answer: "Blue Whale"
+      },
+      
+      {
+      id: 16,
+      question: "Who is credited with inventing the telephone?",
+      options: {
+      A: "Alexander Graham Bell",
+      B: "Thomas Edison",
+      C: "Nikola Tesla",
+      D: "Guglielmo Marconi"
+      },
+      answer: "Alexander Graham Bell"
+      },
+      
+      {
+      id: 17,
+      question: "What is the highest waterfall in the world?",
+      options: {
+      A: "Angel Falls",
+      B: "Niagara Falls",
+      C: "Victoria Falls",
+      D: "Iguaçu Falls"
+      },
+      answer: "Angel Falls"
+      },
+      
+      {
+      id: 18,
+      question: "What is the name of the largest ocean on Earth?",
+      options: {
+      A: "Indian Ocean",
+      B: "Atlantic Ocean",
+      C: "Arctic Ocean",
+      D: "Pacific Ocean"
+      },
+      answer: "Pacific Ocean"
+      },
+      
+      {
+      id: 19,
+      question: "What is the name of the scientist who developed the theory of relativity?",
+      options: {
+      A: "Isaac Newton",
+      B: "Albert Einstein",
+      C: "Galileo Galilei",
+      D: "Charles Darwin"
+      },
+      answer: "Albert Einstein"
+      },
+      
+      {
+      id: 20,
+      question: "What is the smallest country in the world?",
+      options: {
+      A: "Monaco",
+      B: "Nauru",
+      C: "Vatican City",
+      D: "San Marino"
+      },
+      answer: "Vatican City"
+      },
+      
+      {
+      id: 21,
+      question: "Who wrote the famous novel '1984'?",
+      options: {
+      A: "Aldous Huxley",
+      B: "George Orwell",
+      C: "J.D. Salinger",
+      D: "Ernest Hemingway"
+      },
+      answer: "George Orwell"
+      },
+      {
+        id: 22,
+        question: "What is the name of the process used by plants to convert sunlight into energy?",
+        options: {
+        A: "Photosynthesis",
+        B: "Respiration",
+        C: "Transpiration",
+        D: "Chlorophyll"
+        },
+        answer: "Photosynthesis"
+        },
+        
+        {
+        id: 23,
+        question: "What is the name of the largest mammal in the world?",
+        options: {
+        A: "Elephant",
+        B: "Blue Whale",
+        C: "Giraffe",
+        D: "Hippopotamus"
+        },
+        answer: "Blue Whale"
+        },
+        
+        {
+        id: 24,
+        question: "What is the name of the theory that explains the origin of the universe?",
+        options: {
+        A: "The Big Bang Theory",
+        B: "The Theory of Relativity",
+        C: "The Theory of Evolution",
+        D: "The Quantum Theory"
+        },
+        answer: "The Big Bang Theory"
+        },
+        
+        {
+        id: 25,
+        question: "What is the name of the largest organ in the human body?",
+        options: {
+        A: "Liver",
+        B: "Heart",
+        C: "Lungs",
+        D: "Skin"
+        },
+        answer: "Skin"
+        }
 ]
 
 let answersTotal = questions.length;

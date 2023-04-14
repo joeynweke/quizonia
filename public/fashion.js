@@ -24,63 +24,281 @@ let seeScore = document.getElementById("see-score")
 let questions = [
     {
         id: 1,
-        question : 'Who wrote the novel "To Kill a Mockingbird"?',
-        options : {
-            A: 'Harper Lee',
-            B: 'Mark Twain',
-            C: 'Ernest Hemingway',
-            D: 'William Faulkner'
+        question: "What is the name of the famous French fashion designer known for his timeless designs and trademark tweed suits?",
+        options: {
+        A: "Coco Chanel",
+        B: "Yves Saint Laurent",
+        C: "Christian Dior",
+        D: "Gianni Versace"
         },
-        answer : 'Harper Lee'
-    },
-
-    {
+        answer: "Coco Chanel"
+        },
+        {
         id: 2,
-        question : 'What is the name of the famous painting by Leonardo da Vinci that depicts the Last Supper?',
-        options : {
-            A: 'The Mona Lisa',
-            B: 'The Last Supper',
-            C: 'The Creation of Adam',
-            D: 'The Sistine Chapel'
+        question: "What is the name of the iconic red-soled shoes designed by French luxury shoe designer Christian Louboutin?",
+        options: {
+        A: "Ruby Pumps",
+        B: "Scarlet Heels",
+        C: "Crimson Stilettos",
+        D: "Red Bottoms"
         },
-        answer : 'The Last Supper'
-    },
-
-    {
+        answer: "Red Bottoms"
+        },
+        {
         id: 3,
-        question : 'Who painted the famous work "The Starry Night"?',
-        options : {
-            A: 'Vincent van Gogh',
-            B: 'Pablo Picasso',
-            C: 'Claude Monet',
-            D: 'Gustav Klimt'
+        question: "What is the name of the Indian fashion designer who has dressed international celebrities such as Beyonce, Rihanna, and Lady Gaga?",
+        options: {
+        A: "Sabyasachi Mukherjee",
+        B: "Manish Malhotra",
+        C: "Tarun Tahiliani",
+        D: "Rohit Bal"
         },
-        answer : 'Vincent van Gogh'
-    },
-
-    {
+        answer: "Sabyasachi Mukherjee"
+        },
+        {
         id: 4,
-        question : 'Who wrote the epic poem "Beowulf"?',
-        options : {
-            A: "Geoffrey Chaucer",
-            B: "John Milton",
-            C: "William Shakespeare",
-            D: "Anonymous"
+        question: "What is the name of the iconic American denim brand that was founded in 1853 and is known for its Levi's 501 jeans?",
+        options: {
+        A: "Wrangler",
+        B: "Lee",
+        C: "Calvin Klein",
+        D: "Levi Strauss & Co."
         },
-        answer : 'Anonymous'
-    },
-
-    {
+        answer: "Levi Strauss & Co."
+        },
+        {
         id: 5,
-        question : 'Which playwright wrote the play "Romeo and Juliet"?',
-        options : {
-            A: "William Shakespeare",
-            B: "Oscar Wilde",
-            C: "Tennessee Williams",
-            D: "Arthur Miller"
+        question: "What is the name of the Italian luxury fashion brand known for its signature Medusa logo and opulent designs?",
+        options: {
+        A: "Gucci",
+        B: "Prada",
+        C: "Versace",
+        D: "Valentino"
         },
-        answer : 'William Shakespeare'
-    }
+        answer: "Versace"
+        },
+        {
+            id: 6,
+            question: 'What fashion item is named after the French word for "little barrel"?',
+            options: {
+                A: 'Bolero',
+                B: 'Barrette',
+                C: 'Bandeau',
+                D: 'Barrel bag'
+            },
+            answer: 'Barrel bag'
+        },
+        {
+            id: 7,
+            question: 'What type of jewelry is named after a flower known for its prickly stem and vibrant color?',
+            options: {
+                A: 'Poppy necklace',
+                B: 'Thistle brooch',
+                C: 'Daisy earrings',
+                D: 'Rose bracelet'
+            },
+            answer: 'Thistle brooch'
+        },
+        {
+            id: 8,
+            question: 'Which famous fashion designer is known for his signature red-soled shoes?',
+            options: {
+            A: 'Christian Louboutin',
+            B: 'Karl Lagerfeld',
+            C: 'Giorgio Armani',
+            D: 'Ralph Lauren'
+            },
+            answer: 'Christian Louboutin'
+            },
+            {
+            id: 9,
+            question: 'What is the name of the iconic Hermès bag that was first introduced in 1935?',
+            options: {
+            A: 'Kelly',
+            B: 'Birkin',
+            C: 'Constance',
+            D: 'Evelyne'
+            },
+            answer: 'Kelly'
+            },
+            {
+            id: 10,
+            question: 'Which iconic fashion designer is known for his "wrap" dress?',
+            options: {
+            A: 'Coco Chanel',
+            B: 'Donna Karan',
+            C: 'Diane von Furstenberg',
+            D: 'Betsey Johnson'
+            },
+            answer: 'Diane von Furstenberg'
+            },
+            {
+            id: 11,
+            question: 'What type of fabric is used to make traditional Scottish kilts?',
+            options: {
+            A: 'Tweed',
+            B: 'Cashmere',
+            C: 'Wool',
+            D: 'Silk'
+            },
+            answer: 'Wool'
+            },
+            {
+            id: 12,
+            question: 'Which fashion designer is known for his skull motifs and edgy designs?',
+            options: {
+            A: 'Alexander McQueen',
+            B: 'Tom Ford',
+            C: 'Oscar de la Renta',
+            D: 'Marc Jacobs'
+            },
+            answer: 'Alexander McQueen'
+            },
+            {
+            id: 13,
+            question: 'What type of hat is typically worn by the British royal family to formal events?',
+            options: {
+            A: 'Fedora',
+            B: 'Top hat',
+            C: 'Beret',
+            D: 'Baseball cap'
+            },
+            answer: 'Top hat'
+            },
+            {
+            id: 14,
+            question: 'What is the name of the Italian luxury fashion house that is known for its colorful prints and bold designs?',
+            options: {
+            A: 'Gucci',
+            B: 'Versace',
+            C: 'Prada',
+            D: 'Dolce & Gabbana'
+            },
+            answer: 'Versace'
+            },
+            {
+            id: 15,
+            question: 'Which iconic French fashion designer is known for his tweed jackets and quilted handbags?',
+            options: {
+            A: 'Jean-Paul Gaultier',
+            B: 'Pierre Cardin',
+            C: 'Yves Saint Laurent',
+            D: 'Coco Chanel'
+            },
+            answer: 'Coco Chanel'
+            },
+            {
+            id: 16,
+            question: 'What is the name of the famous French fashion house that was founded by a Spanish designer?',
+            options: {
+            A: 'Givenchy',
+            B: 'Balenciaga',
+            C: 'Dior',
+            D: 'Chloé'
+            },
+            answer: 'Balenciaga'
+            },
+            {
+            id: 17,
+            question: 'What is the name of the American fashion designer who is known for his minimalist designs and love of the color black?',
+            options: {
+            A: 'Michael Kors',
+            B: 'Ralph Lauren',
+            C: 'Calvin Klein',
+            D: 'Rick Owens'
+            },
+            answer: 'Rick Owens'
+            },
+        {
+            id: 18,
+            question: 'Which famous fashion designer is known for his signature red-soled shoes?',
+            options: {
+            A: 'Christian Louboutin',
+            B: 'Karl Lagerfeld',
+            C: 'Giorgio Armani',
+            D: 'Ralph Lauren'
+            },
+            answer: 'Christian Louboutin'
+            },
+            {
+            id: 19,
+            question: 'What is the name of the iconic Hermès bag that was first introduced in 1935?',
+            options: {
+            A: 'Kelly',
+            B: 'Birkin',
+            C: 'Constance',
+            D: 'Evelyne'
+            },
+            answer: 'Kelly'
+            },
+            {
+            id: 20,
+            question: 'Which iconic fashion designer is known for his "wrap" dress?',
+            options: {
+            A: 'Coco Chanel',
+            B: 'Donna Karan',
+            C: 'Diane von Furstenberg',
+            D: 'Betsey Johnson'
+            },
+            answer: 'Diane von Furstenberg'
+            },
+            {
+            id: 21,
+            question: 'What type of fabric is used to make traditional Scottish kilts?',
+            options: {
+            A: 'Tweed',
+            B: 'Cashmere',
+            C: 'Wool',
+            D: 'Silk'
+            },
+            answer: 'Wool'
+            },
+            {
+            id: 22,
+            question: 'Which fashion designer is known for his skull motifs and edgy designs?',
+            options: {
+            A: 'Alexander McQueen',
+            B: 'Tom Ford',
+            C: 'Oscar de la Renta',
+            D: 'Marc Jacobs'
+            },
+            answer: 'Alexander McQueen'
+            },
+            {
+            id: 23,
+            question: 'What type of hat is typically worn by the British royal family to formal events?',
+            options: {
+            A: 'Fedora',
+            B: 'Top hat',
+            C: 'Beret',
+            D: 'Baseball cap'
+            },
+            answer: 'Top hat'
+            },
+            {
+            id: 24,
+            question: 'What is the name of the Italian luxury fashion house that is known for its colorful prints and bold designs?',
+            options: {
+            A: 'Gucci',
+            B: 'Versace',
+            C: 'Prada',
+            D: 'Dolce & Gabbana'
+            },
+            answer: 'Versace'
+            },
+            {
+            id: 25,
+            question: 'Which iconic French fashion designer is known for his tweed jackets and quilted handbags?',
+            options: {
+            A: 'Jean-Paul Gaultier',
+            B: 'Pierre Cardin',
+            C: 'Yves Saint Laurent',
+            D: 'Coco Chanel'
+            },
+            answer: 'Coco Chanel'
+            },
+                  
+         
 ]
 
 let answersTotal = questions.length;
